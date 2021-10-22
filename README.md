@@ -43,17 +43,17 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 | :white_check_markn: | [100 Days CSS Challenge #034 ==> Hello](https://100dayscss.com/days/34/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #035 ==> Loading Circle](https://100dayscss.com/days/35/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #036 ==> Tabs](https://100dayscss.com/days/36/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #037 ==> Carousel](https://100dayscss.com/days/37/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #038 ==> Logo Transition](https://100dayscss.com/days/38/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #039 ==> Menu Toggle](https://100dayscss.com/days/39/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #040 ==> Gallery](https://100dayscss.com/days/40/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #041 ==> Error Modal](https://100dayscss.com/days/41/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #042 ==> Stars](https://100dayscss.com/days/42/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #037 ==> Carousel](https://100dayscss.com/days/37/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/LYLgezz)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #038 ==> Logo Transition](https://100dayscss.com/days/38/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/MWoPrWg)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #039 ==> Menu Toggle](https://100dayscss.com/days/39/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/VwWEpMX)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #040 ==> Gallery](https://100dayscss.com/days/40/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/KKqGrme)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #041 ==> Error Modal](https://100dayscss.com/days/41/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/KKqGJqa)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #042 ==> Stars](https://100dayscss.com/days/42/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/WNOaPdo)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #043 ==> Lightbulb](https://100dayscss.com/days/43/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #044 ==> Twisted Pyramid](https://100dayscss.com/days/44/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #045 ==> Button](https://100dayscss.com/days/45/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #046 ==> Iris Circles](https://100dayscss.com/days/46/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #047 ==> Pixel Art](https://100dayscss.com/days/47/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #047 ==> Pixel Art](https://100dayscss.com/days/47/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/LYLZzVQ)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #048 ==> 3D Cube](https://100dayscss.com/days/48/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #049 ==> CSS Follow](https://100dayscss.com/days/49/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #050 ==> Easter Egg](https://100dayscss.com/days/50/)|[Solution/preview]()|[The Code]|
