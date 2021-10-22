@@ -7,16 +7,16 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 | The Status | The Challenge | My Solution | My Code |
 | ------------- | ------------- | ------------- | ------------- |
 | :white_check_mark: | You Can See The Full List On Codepen.io|[The PlayList On Codepen.io](https://codepen.io/collection/aMdyrp)| [All Code] |
-| :white_check_markn: | [100 Days CSS Challenge #001 ==> Title](https://100dayscss.com/days/1/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #002 ==> Menu Icon](https://100dayscss.com/days/2/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #003 ==> The Pyramide](https://100dayscss.com/days/3/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #004 ==> Loading](https://100dayscss.com/days/4/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #005 ==> Statistic](https://100dayscss.com/days/5/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #006 ==> Profile](https://100dayscss.com/days/6/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #007 ==> Notifications, Search and Menu](https://100dayscss.com/days/7/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #008 ==> Metaballs](https://100dayscss.com/days/8/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #009 ==> Weather](https://100dayscss.com/days/9/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #010 ==> Watch](https://100dayscss.com/days/10/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #001 ==> Title](https://100dayscss.com/days/1/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/RwVXeqv)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #002 ==> Menu Icon](https://100dayscss.com/days/2/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/KKmOGaK)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #003 ==> The Pyramide](https://100dayscss.com/days/3/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/xxdvBxj)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #004 ==> Loading](https://100dayscss.com/days/4/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/NWgrgGj)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #005 ==> Statistic](https://100dayscss.com/days/5/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/BapVpoV)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #006 ==> Profile](https://100dayscss.com/days/6/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/PopZaeO)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #007 ==> Notifications, Search and Menu](https://100dayscss.com/days/7/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/GRWoaPM)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #008 ==> Metaballs](https://100dayscss.com/days/8/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/MWpKMKg)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #009 ==> Rainy Night](https://100dayscss.com/days/9/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/xxqVKKB)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #010 ==> Watch](https://100dayscss.com/days/10/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/bGqpper)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #011 ==> These Boots Are Made For Walking](https://100dayscss.com/days/11/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #012 ==> Tooltip](https://100dayscss.com/days/12/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #013 ==> User Gallery](https://100dayscss.com/days/13/)|[Solution/preview]()|[The Code]|
