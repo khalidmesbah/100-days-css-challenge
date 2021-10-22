@@ -1,4 +1,4 @@
-#100 DAYS CSS CHALLENGE
+# 100 DAYS CSS CHALLENGE
 
 ![100 Days CSS Challenge Logo](logo.png)
 
@@ -63,41 +63,41 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 | :white_check_markn: | [100 Days CSS Challenge #052 ==> Dot Wave](https://100dayscss.com/days/52/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #053 ==> Range Slider](https://100dayscss.com/days/53/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #054 ==> Waves](https://100dayscss.com/days/54/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #055 ==> Thermostat](https://100dayscss.com/days/55/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #056 ==> Flower](https://100dayscss.com/days/56/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #055 ==> Thermostat](https://100dayscss.com/days/55/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/ExXjXdX)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #056 ==> Flower](https://100dayscss.com/days/56/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/MWogGbq)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #057 ==> Icosahedron](https://100dayscss.com/days/57/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #058 ==> 3D Sphere](https://100dayscss.com/days/58/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #059 ==> Slice Transition](https://100dayscss.com/days/59/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #060 ==> Blurry Overlay](https://100dayscss.com/days/60/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #061 ==> CSS Gradient Transition](https://100dayscss.com/days/61/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #062 ==> Price Table](https://100dayscss.com/days/62/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #063 ==> Hypnotic Ring](https://100dayscss.com/days/63/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #064 ==> Button](https://100dayscss.com/days/64/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #065 ==> Ellipses Animation](https://100dayscss.com/days/65/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #066 ==> Sparkle Checkbox](https://100dayscss.com/days/66/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #067 ==> 3D Parosal](https://100dayscss.com/days/67/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #068 ==> Recording](https://100dayscss.com/days/68/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #069 ==> Eye](https://100dayscss.com/days/69/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #070 ==> Calendar Days](https://100dayscss.com/days/70/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #062 ==> Price Table](https://100dayscss.com/days/62/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/XWgdPGM)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #063 ==> Hypnotic Ring](https://100dayscss.com/days/63/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/xxrOrbm)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #064 ==> Button](https://100dayscss.com/days/64/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/oNwbGor)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #065 ==> Ellipses Animation](https://100dayscss.com/days/65/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/dyRGVxY)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #066 ==> Sparkle Checkbox](https://100dayscss.com/days/66/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/WNOraQG)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #067 ==> 3D Parosal](https://100dayscss.com/days/67/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/dyRXvBm)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #068 ==> Recording](https://100dayscss.com/days/68/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/jOwWJNz)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #069 ==> Eye](https://100dayscss.com/days/69/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/rNwxEwg)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #070 ==> Calendar Days](https://100dayscss.com/days/70/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/ExXKRNQ)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #071 ==> Morse Code Keyboard](https://100dayscss.com/days/71/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #072 ==> The Rings](https://100dayscss.com/days/72/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #073 ==> Word Carousel](https://100dayscss.com/days/73/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #074 ==> Pagination](https://100dayscss.com/days/74/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #075 ==> Spinning Discs](https://100dayscss.com/days/75/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #076 ==> Reveal Key](https://100dayscss.com/days/76/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #077 ==> Motion Blur](https://100dayscss.com/days/77/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #078 ==> Hover Shadow](https://100dayscss.com/days/78/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #075 ==> Spinning Discs](https://100dayscss.com/days/75/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/oNwxvPr)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #076 ==> Reveal Key](https://100dayscss.com/days/76/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/ExXgJwx)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #077 ==> Motion Blur](https://100dayscss.com/days/77/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/QWgPPag)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #078 ==> Hover Shadow](https://100dayscss.com/days/78/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/PojzKBy)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #079 ==> Lines Animation](https://100dayscss.com/days/79/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #080 ==> Flexbox Accordeon](https://100dayscss.com/days/80/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #080 ==> Flexbox Accordeon](https://100dayscss.com/days/80/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/zYzmNJx)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #081 ==> Jumping Ball](https://100dayscss.com/days/81/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #082 ==> Responding Button](https://100dayscss.com/days/82/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #083 ==> Warp Drive](https://100dayscss.com/days/83/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #084 ==> Book Cover](https://100dayscss.com/days/84/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #084 ==> Book Cover](https://100dayscss.com/days/84/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/zYzmoLm)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #085 ==> It's Something](https://100dayscss.com/days/85/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #086 ==> Newton's Cradle](https://100dayscss.com/days/86/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #087 ==> Ruby](https://100dayscss.com/days/87/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #088 ==> Candle](https://100dayscss.com/days/88/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #089 ==> Animated Pattern](https://100dayscss.com/days/89/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #089 ==> Animated Pattern](https://100dayscss.com/days/89/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/gORddrB)|[The Code]|
 | :white_check_mark: | [100 Days CSS Challenge #090 ==> Mouse Trap](https://100dayscss.com/days/90/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/gORdZyV)|[The Code]|
 | :white_check_mark: | [100 Days CSS Challenge #091 ==> Cube Loader](https://100dayscss.com/days/91/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/OJgBMWr)|[The Code]|
 | :white_check_mark: | [100 Days CSS Challenge #092 ==> Dancing Points](https://100dayscss.com/days/92/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/NWgEzVb)|[The Code]|
