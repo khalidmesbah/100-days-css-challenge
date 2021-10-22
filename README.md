@@ -96,14 +96,14 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 | :white_check_markn: | [100 Days CSS Challenge #087 ==> Ruby](https://100dayscss.com/days/87/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #088 ==> Candle](https://100dayscss.com/days/88/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #089 ==> Animated Pattern](https://100dayscss.com/days/89/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #090 ==> Mouse Trap](https://100dayscss.com/days/90/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #091 ==> Cube Loader](https://100dayscss.com/days/91/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #092 ==> Dancing Points](https://100dayscss.com/days/92/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #093 ==> Padlock](https://100dayscss.com/days/93/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #094 ==> Tree](https://100dayscss.com/days/94/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #095 ==> The Pig](https://100dayscss.com/days/95/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #096 ==> Jumping Square](https://100dayscss.com/days/96/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #097 ==> Puppet](https://100dayscss.com/days/97/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #098 ==> Plopp](https://100dayscss.com/days/98/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #099 ==> Icon Animation](https://100dayscss.com/days/99/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #100 ==> Neon Light](https://100dayscss.com/days/100/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #090 ==> Mouse Trap](https://100dayscss.com/days/90/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/gORdZyV)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #091 ==> Cube Loader](https://100dayscss.com/days/91/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/OJgBMWr)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #092 ==> Dancing Points](https://100dayscss.com/days/92/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/NWgEzVb)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #093 ==> Padlock](https://100dayscss.com/days/93/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/jOwXwdz)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #094 ==> Tree](https://100dayscss.com/days/94/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/powGrzV)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #095 ==> Pig](https://100dayscss.com/days/95/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/vYZPGEJ)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #096 ==> Jumping Square](https://100dayscss.com/days/96/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/PojLMpG)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #097 ==> Puppet](https://100dayscss.com/days/97/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/XWgQgKp)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #098 ==> Plopp](https://100dayscss.com/days/98/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/Pojgeww)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #099 ==> Icon Animation](https://100dayscss.com/days/99/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/GRELGaG)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #100 ==> Neon Light](https://100dayscss.com/days/100/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/zYzXJMe)|[The Code]|
