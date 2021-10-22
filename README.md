@@ -2,7 +2,7 @@
 my solution for the 100 days css challenge
 | The Challenge   | My Solution |
 | ------------- | ------------- |
-    |[Day: #1](https://100dayscss/days/1/)|[Solution]()|
+|[Day: #1](https://100dayscss/days/1/)|[Solution]()|
 |[Day: #2](https://100dayscss/days/2/)|[Solution]()|
 |[Day: #3](https://100dayscss/days/3/)|[Solution]()|
 |[Day: #4](https://100dayscss/days/4/)|[Solution]()|
