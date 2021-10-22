@@ -6,10 +6,10 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 
 The Status | The Challenge | My Solution | My Code |
 | ------------- | ------------- | ------------- | ------------- |
-|- [ ] | You Can See The Full List On Codepen.io|[The PlayList On Codepen.io](https://codepen.io/collection/aMdyrp)| [All Code] |
-|- [x] | [100 Days CSS Challenge #001 ==> Title](https://100dayscss.com/days/1/)|[Solution/preview]()|[The Code]|
-|- [] | [100 Days CSS Challenge #002 ==> Menu Icon](https://100dayscss.com/days/2/)|[Solution/preview]()|[The Code]|
-|- [] | [100 Days CSS Challenge #003 ==> The Pyramide](https://100dayscss.com/days/3/)|[Solution/preview]()|[The Code]|
+| - [ ] | You Can See The Full List On Codepen.io|[The PlayList On Codepen.io](https://codepen.io/collection/aMdyrp)| [All Code] |
+| - [x] | [100 Days CSS Challenge #001 ==> Title](https://100dayscss.com/days/1/)|[Solution/preview]()|[The Code]|
+| - [] | [100 Days CSS Challenge #002 ==> Menu Icon](https://100dayscss.com/days/2/)|[Solution/preview]()|[The Code]|
+| - [X] | [100 Days CSS Challenge #003 ==> The Pyramide](https://100dayscss.com/days/3/)|[Solution/preview]()|[The Code]|
 |- [] | [100 Days CSS Challenge #004 ==> Loading](https://100dayscss.com/days/4/)|[Solution/preview]()|[The Code]|
 |- [] | [100 Days CSS Challenge #005 ==> Statistic](https://100dayscss.com/days/5/)|[Solution/preview]()|[The Code]|
 |- [] | [100 Days CSS Challenge #006 ==> Profile](https://100dayscss.com/days/6/)|[Solution/preview]()|[The Code]|
