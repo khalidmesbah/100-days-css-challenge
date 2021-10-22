@@ -17,16 +17,16 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 | :white_check_mark: | [100 Days CSS Challenge #008 ==> Metaballs](https://100dayscss.com/days/8/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/MWpKMKg)|[The Code]|
 | :white_check_mark: | [100 Days CSS Challenge #009 ==> Rainy Night](https://100dayscss.com/days/9/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/xxqVKKB)|[The Code]|
 | :white_check_mark: | [100 Days CSS Challenge #010 ==> Watch](https://100dayscss.com/days/10/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/bGqpper)|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #011 ==> These Boots Are Made For Walking](https://100dayscss.com/days/11/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #012 ==> Tooltip](https://100dayscss.com/days/12/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #013 ==> User Gallery](https://100dayscss.com/days/13/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #014 ==> Byciclopter](https://100dayscss.com/days/14/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #015 ==> Upload](https://100dayscss.com/days/15/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #016 ==> Blobby](https://100dayscss.com/days/16/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #017 ==> Penrose Triangle](https://100dayscss.com/days/17/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #018 ==> Elastic](https://100dayscss.com/days/18/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #019 ==> Slider With Radio Buttons](https://100dayscss.com/days/19/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #020 ==> Mail Send Icon](https://100dayscss.com/days/20/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #011 ==> These Boots Are Made For Walking](https://100dayscss.com/days/11/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/PojzjxK)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #012 ==> Tooltip](https://100dayscss.com/days/12/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/vYxGXGv)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #013 ==> User Gallery](https://100dayscss.com/days/13/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/PojzjNz)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #014 ==> Byciclopter](https://100dayscss.com/days/14/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/ExWKLjv)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #015 ==> Upload](https://100dayscss.com/days/15/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/KKqMqxB)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #016 ==> Blobby](https://100dayscss.com/days/16/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/zYzBEYw)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #017 ==> Penrose Triangle](https://100dayscss.com/days/17/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/mdWEVXg)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #018 ==> Elastic](https://100dayscss.com/days/18/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/qBrNNZZ)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #019 ==> Slider With Radio Buttons](https://100dayscss.com/days/19/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/KKWMaVr)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #020 ==> Mail Send Icon](https://100dayscss.com/days/20/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/rNyLJzr)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #021 ==> Pac Man](https://100dayscss.com/days/21/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #022 ==> FitnessTracker](https://100dayscss.com/days/22/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #023 ==> Animated Typography](https://100dayscss.com/days/23/)|[Solution/preview]()|[The Code]|
