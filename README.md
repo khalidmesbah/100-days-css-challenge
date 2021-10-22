@@ -34,7 +34,7 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 |[100 Days CSS Challenge #027 ==> Checklist](https://100dayscss.com/days/27/)|[Solution/preview]()|
 |[100 Days CSS Challenge #028 ==> Ring Ring](https://100dayscss.com/days/28/)|[Solution/preview]()|
 |[100 Days CSS Challenge #029 ==> Search Field](https://100dayscss.com/days/29/)|[Solution/preview]()|
-|[100 Days CSS Challenge #030 ==> Line On Path Animation](https://100dayscss.com/days/30/)|[Solution/preview]()|
+|[100 Days CSS Challenge #030 ==> Random Line](https://100dayscss.com/days/30/)|[Solution/preview]()|
 |[100 Days CSS Challenge #031 ==> Pendulum Wave](https://100dayscss.com/days/31/)|[Solution/preview]()|
 |[100 Days CSS Challenge #032 ==> Counter](https://100dayscss.com/days/32/)|[Solution/preview]()|
 |[100 Days CSS Challenge #033 ==> Sunny Day](https://100dayscss.com/days/33/)|[Solution/preview]()|
