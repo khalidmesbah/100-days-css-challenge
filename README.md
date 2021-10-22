@@ -27,16 +27,16 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 | :white_check_mark: | [100 Days CSS Challenge #018 ==> Elastic](https://100dayscss.com/days/18/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/qBrNNZZ)|[The Code]|
 | :white_check_mark: | [100 Days CSS Challenge #019 ==> Slider With Radio Buttons](https://100dayscss.com/days/19/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/KKWMaVr)|[The Code]|
 | :white_check_mark: | [100 Days CSS Challenge #020 ==> Mail Send Icon](https://100dayscss.com/days/20/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/rNyLJzr)|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #021 ==> Pac Man](https://100dayscss.com/days/21/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #022 ==> FitnessTracker](https://100dayscss.com/days/22/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #023 ==> Animated Typography](https://100dayscss.com/days/23/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #024 ==> Button](https://100dayscss.com/days/24/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #025 ==> Map Marker](https://100dayscss.com/days/25/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #026 ==> Modal Window](https://100dayscss.com/days/26/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #027 ==> Checklist](https://100dayscss.com/days/27/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #028 ==> Ring Ring](https://100dayscss.com/days/28/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #029 ==> Search Field](https://100dayscss.com/days/29/)|[Solution/preview]()|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #030 ==> Random Line](https://100dayscss.com/days/30/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #021 ==> Pac Man](https://100dayscss.com/days/21/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/abwRMoX)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #022 ==> FitnessTracker](https://100dayscss.com/days/22/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/GREwZLJ)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #023 ==> Animated Typography](https://100dayscss.com/days/23/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/oNwQpEe)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #024 ==> Button](https://100dayscss.com/days/24/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/ExXGwOQ)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #025 ==> Map Marker](https://100dayscss.com/days/25/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/gORZNvP)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #026 ==> Motivational Modal](https://100dayscss.com/days/26/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/MWoPRRe)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #027 ==> Checklist](https://100dayscss.com/days/27/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/bGRQdOB)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #028 ==> Ring Ring](https://100dayscss.com/days/28/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/dyzXxym)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #029 ==> Search Field](https://100dayscss.com/days/29/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/bGrBgdY)|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #030 ==> Random Line](https://100dayscss.com/days/30/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/ZEJBxWm)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #031 ==> Pendulum Wave](https://100dayscss.com/days/31/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #032 ==> Counter](https://100dayscss.com/days/32/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #033 ==> Sunny Day](https://100dayscss.com/days/33/)|[Solution/preview]()|[The Code]|
