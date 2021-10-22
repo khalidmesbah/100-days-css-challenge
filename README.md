@@ -4,7 +4,7 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 
 ***
 
-The Status | The Challenge | My Solution | My Code |
+| The Status | The Challenge | My Solution | My Code |
 | ------------- | ------------- | ------------- | ------------- |
 | - [ ] | You Can See The Full List On Codepen.io|[The PlayList On Codepen.io](https://codepen.io/collection/aMdyrp)| [All Code] |
 | - [x] | [100 Days CSS Challenge #001 ==> Title](https://100dayscss.com/days/1/)|[Solution/preview]()|[The Code]|
