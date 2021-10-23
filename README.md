@@ -39,7 +39,7 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 | :white_check_mark: | [100 Days CSS Challenge #028 ==> Ring Ring](https://100dayscss.com/days/28/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/dyzXxym)|[The Code]|
 | :white_check_mark: | [100 Days CSS Challenge #029 ==> Search Field](https://100dayscss.com/days/29/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/bGrBgdY)|[The Code]|
 | :white_check_mark: | [100 Days CSS Challenge #030 ==> Random Line](https://100dayscss.com/days/30/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/ZEJBxWm)|[The Code]|
-| :white_check_markn: | [100 Days CSS Challenge #031 ==> Pendulum Wave](https://100dayscss.com/days/31/)|[Solution/preview]()|[The Code]|
+| :white_check_mark: | [100 Days CSS Challenge #031 ==> Pendulum Wave](https://100dayscss.com/days/31/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/zYdNEgJ)|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #032 ==> Counter](https://100dayscss.com/days/32/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #033 ==> Sunny Day](https://100dayscss.com/days/33/)|[Solution/preview]()|[The Code]|
 | :white_check_markn: | [100 Days CSS Challenge #034 ==> Hello](https://100dayscss.com/days/34/)|[Solution/preview]()|[The Code]|
