@@ -1,0 +1,80 @@
+.frame {
+	position: absolute;
+	inset: calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgb(0 0 0 / 20%);
+	overflow: hidden;
+	background: #27ae60;
+	display: grid;
+	place-items: center;
+	cursor: pointer;
+}
+.background {
+	padding: 200px;
+	background: #2ecc71;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: all 0.6s ease-in-out;
+}
+.circle {
+	position: absolute;
+	padding: 15px;
+	border-radius: 50%;
+	background: #fff;
+	transition: all 0.6s ease-in-out;
+	box-shadow: 1px 2px 4px rgb(0 0 0 / 20%);
+	&::before {
+		position: absolute;
+		content: "";
+		inset: -60px;
+		border-radius: 50%;
+		border: 5px solid #fff;
+		transform: scale(0);
+		transition: transform 0.6s ease-in, opacity 0.3s ease-in;
+	}
+}
+.lines {
+	position: absolute;
+	inset: 0;
+	transform: scale(0);
+	transition: transform 0.6s ease-in, opacity 0.3s ease-in;
+	display: grid;
+	place-items: center;
+	.line {
+		position: absolute;
+		padding: 133px 2px;
+		background: linear-gradient(
+			#fff 0 26px,
+			#0000 26px calc(100% - 26px),
+			#fff calc(100% - 26px) 100%
+		);
+	}
+	@for $i from 1 through 9 {
+		.line-#{$i} {
+			transform: rotate(($i - 1) * 20deg);
+		}
+	}
+}
+input {
+	display: none;
+	&:checked + label {
+		.background {
+			transform: scale(1.5);
+		}
+		.circle {
+			border-radius: 0;
+			transform: rotate(180deg) scale(1.1);
+			box-shadow: -4px -8px 16px rgb(0 0 0 / 20%);
+			&::before {
+				opacity: 0;
+				transform: scale(1);
+				transition: transform 0.6s ease-out, opacity 0.3s ease-out 0.3s;
+			}
+		}
+		.lines {
+			opacity: 0;
+			transform: scale(1);
+			transition: transform 0.6s ease-out, opacity 0.3s ease-out 0.3s;
+		}
+	}
+}

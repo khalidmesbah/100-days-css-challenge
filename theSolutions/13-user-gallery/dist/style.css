@@ -1,0 +1,76 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 5px;
+}
+
+.profile {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+}
+
+.plus {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ec6565;
+  box-shadow: 3px 5px 10px 1px rgba(71, 63, 63, 0.671);
+  transition: all 400ms ease-in-out;
+  transform: scale(2);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus::after {
+  content: "+";
+  position: absolute;
+  font-size: 2em;
+  color: #fff;
+}
+
+.profile:hover .plus {
+  opacity: 1;
+  transform: scale(1);
+}
+.profile:hover .overlay {
+  opacity: 0.4;
+}

@@ -1,0 +1,26 @@
+.frame {
+  position: absolute;
+	inset:calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+	display: grid;
+	grid-template-columns:repeat(auto-fill,20px);
+}
+.pixel{
+	position: relative;
+}
+label{
+	position: absolute;
+	inset:0;
+	border: 1px solid #E24E3F;
+	cursor: pointer;
+	background: #DE4738;
+	&:hover {
+		background: #EC5142;
+	}
+}
+input:checked + label{
+	background: #fff;
+	border-color: #fff;
+}

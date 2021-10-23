@@ -1,0 +1,112 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #000;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  filter: contrast(25);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ball {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  border-radius: 50%;
+  filter: blur(15px);
+}
+
+@for $i from 1 through 8 {
+  .bubb-#{$i} {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    transform: rotate((random(360)) + deg);
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      border-radius: 50%;
+      transform-origin: random(30) + px random(30) + px;
+      -webkit-animation: rotate
+        (1.7 + 0.2 * $i) +
+        s
+        ease-in-out
+        (0.2 * $i) +
+        s
+        infinite;
+      animation: rotate
+        (1.7 + 0.2 * $i) +
+        s
+        ease-in-out
+        (0.2 * $i) +
+        s
+        infinite;
+      filter: blur(5px);
+    }
+  }
+}
+
+@for $i from 1 through 10 {
+  .sparkle-#{$i} {
+    position: absolute;
+    left: 38px;
+    top: 38px;
+    width: (7 + $i) + px;
+    height: (7 + $i) + px;
+    transform: rotate((random(360)) + deg);
+
+    &::after {
+      position: absolute;
+      content: "";
+      display: block;
+      width: (7 + $i) + px;
+      height: (7 + $i) + px;
+      background-color: #fff;
+      border-radius: 50%;
+      transform-origin: (random(60)) + px;
+      -webkit-animation: rotate
+        (3.5 + $i / 5) +
+        s
+        ease-in-out
+        (1 + $i / 5) +
+        s
+        infinite;
+      animation: rotate (3.5 + $i / 5) + s ease-in-out ($i / 5) + s infinite;
+      filter: blur(3px);
+    }
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

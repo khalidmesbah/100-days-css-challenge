@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #4b4841;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  place-content: center;
+}
+
+.container {
+  perspective: 800px;
+}
+.container:hover .card {
+  transform: rotateX(180deg);
+}
+
+.card {
+  width: 320px;
+  height: 180px;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  perspective: 1000px;
+  box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.card > * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffce4e;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 3px;
+  display: grid;
+  place-content: center;
+}
+.card .front img {
+  -webkit-animation: bike 0.6s ease-in-out infinite;
+          animation: bike 0.6s ease-in-out infinite;
+  transform-origin: 50% 100%;
+}
+@-webkit-keyframes bike {
+  50% {
+    transform: scaleY(1.03);
+  }
+}
+@keyframes bike {
+  50% {
+    transform: scaleY(1.03);
+  }
+}
+.card .front .street {
+  position: absolute;
+  top: 127px;
+  left: calc(50% - 80px);
+  width: 160px;
+  height: 3px;
+  overflow: hidden;
+}
+.card .front .street .stripe-1 {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 3px;
+  width: 20px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: street 0.5s linear 1.2s infinite;
+          animation: street 0.5s linear 1.2s infinite;
+}
+.card .front .street .stripe-2 {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 3px;
+  width: 7px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: street 1s linear 2.2s infinite;
+          animation: street 1s linear 2.2s infinite;
+}
+.card .front .street .stripe-3 {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 3px;
+  width: 14px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: street 1.5s linear 3.2s infinite;
+          animation: street 1.5s linear 3.2s infinite;
+}
+.card .front .street .stripe-4 {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 3px;
+  width: 18px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: street 2s linear 4.2s infinite;
+          animation: street 2s linear 4.2s infinite;
+}
+.card .front .street .stripe-5 {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 3px;
+  width: 9px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: street 2.5s linear 5.2s infinite;
+          animation: street 2.5s linear 5.2s infinite;
+}
+.card .front .street .stripe-6 {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 3px;
+  width: 10px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: street 3s linear 6.2s infinite;
+          animation: street 3s linear 6.2s infinite;
+}
+.card .front .street .stripe-7 {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 3px;
+  width: 11px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: street 3.5s linear 7.2s infinite;
+          animation: street 3.5s linear 7.2s infinite;
+}
+.card .front .street .stripe-8 {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 3px;
+  width: 12px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: street 4s linear 8.2s infinite;
+          animation: street 4s linear 8.2s infinite;
+}
+.card .front .street .stripe-9 {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  height: 3px;
+  width: 9px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: street 4.5s linear 9.2s infinite;
+          animation: street 4.5s linear 9.2s infinite;
+}
+@-webkit-keyframes street {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+@keyframes street {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+.card .back {
+  transform: rotateX(180deg);
+}
+.card .back img {
+  position: relative;
+  z-index: 1;
+  -webkit-animation: helicopter 1.5s ease-in-out infinite;
+          animation: helicopter 1.5s ease-in-out infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+@-webkit-keyframes helicopter {
+  0%, 100% {
+    transform: translate3d(0, -5px, 0);
+  }
+  50% {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+@keyframes helicopter {
+  0%, 100% {
+    transform: translate3d(0, -5px, 0);
+  }
+  50% {
+    transform: translate3d(0, 5px, 0);
+  }
+}
+.card .back .sky {
+  position: absolute;
+  top: 15px;
+  left: 80px;
+  bottom: 15px;
+  right: 80px;
+  overflow: hidden;
+}
+.card .back .sky .cloud-1 {
+  position: absolute;
+  right: -25px;
+  top: 12px;
+  height: 3px;
+  width: 7.5px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: cloud 0.51s linear 0.4s infinite;
+          animation: cloud 0.51s linear 0.4s infinite;
+}
+@-webkit-keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+@keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+.card .back .sky .cloud-2 {
+  position: absolute;
+  right: -25px;
+  top: 20px;
+  height: 3px;
+  width: 10px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: cloud 0.76s linear 1.2s infinite;
+          animation: cloud 0.76s linear 1.2s infinite;
+}
+@keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+.card .back .sky .cloud-3 {
+  position: absolute;
+  right: -25px;
+  top: 88px;
+  height: 3px;
+  width: 12.5px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: cloud 0.9s linear 1.2s infinite;
+          animation: cloud 0.9s linear 1.2s infinite;
+}
+@keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+.card .back .sky .cloud-4 {
+  position: absolute;
+  right: -25px;
+  top: 24px;
+  height: 3px;
+  width: 15px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: cloud 0.9s linear 2.4s infinite;
+          animation: cloud 0.9s linear 2.4s infinite;
+}
+@keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+.card .back .sky .cloud-5 {
+  position: absolute;
+  right: -25px;
+  top: 149px;
+  height: 3px;
+  width: 17.5px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: cloud 0.75s linear 1s infinite;
+          animation: cloud 0.75s linear 1s infinite;
+}
+@keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+.card .back .sky .cloud-6 {
+  position: absolute;
+  right: -25px;
+  top: 34px;
+  height: 3px;
+  width: 20px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: cloud 0.74s linear 2.4s infinite;
+          animation: cloud 0.74s linear 2.4s infinite;
+}
+@keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+.card .back .sky .cloud-7 {
+  position: absolute;
+  right: -25px;
+  top: 106px;
+  height: 3px;
+  width: 22.5px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: cloud 0.87s linear 4.2s infinite;
+          animation: cloud 0.87s linear 4.2s infinite;
+}
+@keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+.card .back .sky .cloud-8 {
+  position: absolute;
+  right: -25px;
+  top: 20px;
+  height: 3px;
+  width: 25px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: cloud 0.8s linear 4.8s infinite;
+          animation: cloud 0.8s linear 4.8s infinite;
+}
+@keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}
+.card .back .sky .cloud-9 {
+  position: absolute;
+  right: -25px;
+  top: 39px;
+  height: 3px;
+  width: 27.5px;
+  background: #4b4841;
+  border-radius: 3px;
+  -webkit-animation: cloud 0.93s linear 1.8s infinite;
+          animation: cloud 0.93s linear 1.8s infinite;
+}
+@keyframes cloud {
+  100% {
+    transform: translate3d(-210px, 0, 0) scaleX(0.8);
+  }
+}

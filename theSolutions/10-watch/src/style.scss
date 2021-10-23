@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+	position: absolute;
+	inset:calc(50% - 200px);
+	width: 400px;
+	height: 400px;
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgb(0 0 0 / 30%);
+	background: #4c4c4c;
+	color: #fff;
+	font-size: 12px;
+	line-height: 100%;
+	text-transform: uppercase;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.center {
+	position: absolute;
+	width: 212px;
+	height: 212px;
+	margin:87px 0 0 87px;
+	background: #242424;
+	border: 7px solid #3a3a3a;
+	border-radius: 50%;
+	display: grid;
+	place-content: center;
+}
+.dots {
+	position: absolute;
+	height: 188px;
+	width: 188px;
+	top: 12px;
+	left: 12px;
+	.dot {
+		&::before {
+			content: "";
+			position: absolute;
+			padding: 1px;
+			background: #d3d3d3;
+			border-radius: 50%;
+			box-shadow: 186px 0, 93px 93px, 93px -93px;
+		}
+	}
+	@for $i from 1 through 15 {
+		.dot-#{$i} {
+			transform: translate(1px, 94px) rotate((6 * $i) + deg);
+		}
+	}
+}
+.center > svg {
+	position: absolute;
+	border-radius: 50%;
+	margin: 5px;
+	circle {
+		animation: spinner 5s linear infinite both;
+		transform-origin: center;
+		transform: rotate(-90deg);
+	}
+	@keyframes spinner {
+		0% {
+			stroke-dasharray: 0 0 0 625px;
+		}
+		50% {
+			stroke-dasharray: 0 0 625px;
+		}
+		100% {
+			stroke-dasharray: 0 625px 0 0;
+		}
+	}
+}
+.content {
+	z-index:3;
+	p:nth-child(2) {
+		font: 700 40px "Open Sans", Helvetica, sans-serif;
+		margin: -15px 0;
+	}
+	p:last-child {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		span {
+			display: flex;
+			align-items: center;
+			gap: 4px;
+			svg {
+				animation: beat 0.9s ease-in-out infinite;
+				@keyframes beat {
+					35% {
+						transform: scale(1.2);
+					}
+				}
+			}
+		}
+	}
+}

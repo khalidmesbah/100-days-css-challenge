@@ -1,0 +1,78 @@
+$row: 1;
+$column: 1;
+$rows: 20; // sync with html
+$columns: 20; // sync with html
+
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background: #2980b9;
+}
+.trigger {
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+.lines {
+  position: absolute;
+  inset: 0;
+  .line {
+    margin: 19px 0px;
+    height: 1px;
+    .left,
+    .right {
+      float: left;
+      height: 1px;
+      width: 200px;
+      background: #fff;
+      transform-origin: 0 50%;
+      transition: all 0.3s linear;
+      transform: scaleX(0);
+    }
+
+    .right {
+      transform-origin: 100% 50%;
+    }
+  }
+}
+@for $i from 1 through ($rows * $columns) {
+  @if ($row * $columns) < $i {
+    $row: $row + 1; // update row
+  }
+  $column: $i - (($row - 1) * $columns); // update column
+  .trigger-#{$i}:hover {
+    & ~ .lines .line-#{$row} {
+      .left {
+        transform: scaleX(($column - 3) / 10);
+      }
+      .right {
+        transform: scaleX(($columns - ($column + 2)) / 10);
+      }
+    }
+    & ~ .lines .line-#{$row - 1},
+    & ~ .lines .line-#{$row + 1} {
+      .left {
+        transform: scaleX(($column - 2) / 10);
+      }
+      .right {
+        transform: scaleX(($columns - ($column + 1)) / 10);
+      }
+    }
+    & ~ .lines .line-#{$row - 2},
+    & ~ .lines .line-#{$row + 2} {
+      .left {
+        transform: scaleX(($column - 1) / 10);
+      }
+      .right {
+        transform: scaleX(($columns - $column) / 10);
+      }
+    }
+  }
+}

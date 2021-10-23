@@ -1,0 +1,677 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.frame {
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #1a2238;
+  color: #394568;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+section {
+  width: 100%;
+  height: 310px;
+  background: #1a2238;
+  overflow: hidden;
+  position: relative;
+}
+section .moon {
+  position: absolute;
+  padding: 33.5px;
+  top: 45px;
+  left: 55px;
+  border-radius: 50%;
+  background: #f6edbd;
+  overflow: hidden;
+  box-shadow: 0 0 15px 0 #f6edbd;
+  -webkit-animation: rise 1s ease-out;
+          animation: rise 1s ease-out;
+}
+section .moon .crater {
+  position: absolute;
+  border-radius: 50%;
+  background: #ece1a8;
+}
+section .moon .crater-1 {
+  top: 33px;
+  left: 39px;
+  padding: 3px;
+}
+section .moon .crater-2 {
+  top: 31px;
+  left: 60px;
+  padding: 3px;
+}
+section .moon .crater-3 {
+  top: 19px;
+  left: 4px;
+  padding: 1px;
+}
+section .moon .crater-4 {
+  top: 2px;
+  left: 27px;
+  padding: 3px;
+}
+section .moon .crater-5 {
+  top: 2px;
+  left: 36px;
+  padding: 2px;
+}
+section .moon .crater-6 {
+  top: 36px;
+  left: 6px;
+  padding: 3px;
+}
+section .moon .crater-7 {
+  top: 24px;
+  left: 35px;
+  padding: 1px;
+}
+section .moon .crater-8 {
+  top: 52px;
+  left: 43px;
+  padding: 6px;
+}
+section .moon .crater-9 {
+  top: 55px;
+  left: 15px;
+  padding: 4px;
+}
+section .moon .crater-10 {
+  top: 54px;
+  left: 32px;
+  padding: 3px;
+}
+section .moon .crater-11 {
+  top: 62px;
+  left: 18px;
+  padding: 5px;
+}
+section .moon .crater-12 {
+  top: 2px;
+  left: 40px;
+  padding: 4px;
+}
+section .moon .crater-13 {
+  top: 50px;
+  left: 58px;
+  padding: 3px;
+}
+section .moon .crater-14 {
+  top: 28px;
+  left: 2px;
+  padding: 3px;
+}
+section .moon .crater-15 {
+  top: 34px;
+  left: 22px;
+  padding: 2px;
+}
+section .moon .crater-16 {
+  top: 22px;
+  left: 31px;
+  padding: 6px;
+}
+section .moon .crater-17 {
+  top: 51px;
+  left: 23px;
+  padding: 5px;
+}
+section .moon .crater-18 {
+  top: 13px;
+  left: 21px;
+  padding: 2px;
+}
+section .moon .crater-19 {
+  top: 65px;
+  left: 66px;
+  padding: 3px;
+}
+section .moon .crater-20 {
+  top: 9px;
+  left: 4px;
+  padding: 2px;
+}
+section .hill {
+  position: absolute;
+  width: 337px;
+  height: 281px;
+  left: 63px;
+  top: 221px;
+  background: #303c5d;
+  border-radius: 50%;
+  box-shadow: 229px 27px 0 0 #303C5D, -200px 27px 0 0 #303C5D, -120px -20px 0 0 #26314F, 114px -24px 0 0 #26314F;
+}
+section .drop {
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  background: #7fc1f9;
+}
+section .drop::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -2px;
+  left: 1px;
+  background: #7fc1f9;
+  border-radius: 3px;
+}
+section .drop::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -5px;
+  left: 2px;
+  background: #7fc1f9;
+  border-radius: 50%;
+}
+section .drop-1 {
+  left: 45px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 1.1s infinite;
+          animation: drop 0.9s linear 1.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-1::before {
+  padding: 1px;
+}
+section .drop-1::after {
+  padding: 3px 2px;
+}
+section .drop-2 {
+  left: 157px;
+  padding: 4px;
+  -webkit-animation: drop 0.9s linear 2.1s infinite;
+          animation: drop 0.9s linear 2.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-2::before {
+  padding: 1px;
+}
+section .drop-2::after {
+  padding: 2px 1px;
+}
+section .drop-3 {
+  left: 68px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 3.1s infinite;
+          animation: drop 0.9s linear 3.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-3::before {
+  padding: 2px;
+}
+section .drop-3::after {
+  padding: 4px 1px;
+}
+section .drop-4 {
+  left: 243px;
+  padding: 1px;
+  -webkit-animation: drop 0.9s linear 4.1s infinite;
+          animation: drop 0.9s linear 4.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-4::before {
+  padding: 3px;
+}
+section .drop-4::after {
+  padding: 5px 2px;
+}
+section .drop-5 {
+  left: 218px;
+  padding: 2px;
+  -webkit-animation: drop 0.9s linear 5.1s infinite;
+          animation: drop 0.9s linear 5.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-5::before {
+  padding: 1px;
+}
+section .drop-5::after {
+  padding: 5px 2px;
+}
+section .drop-6 {
+  left: 319px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 6.1s infinite;
+          animation: drop 0.9s linear 6.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-6::before {
+  padding: 3px;
+}
+section .drop-6::after {
+  padding: 4px 2px;
+}
+section .drop-7 {
+  left: 64px;
+  padding: 2px;
+  -webkit-animation: drop 0.9s linear 7.1s infinite;
+          animation: drop 0.9s linear 7.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-7::before {
+  padding: 1px;
+}
+section .drop-7::after {
+  padding: 1px 1px;
+}
+section .drop-8 {
+  left: 531px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 8.1s infinite;
+          animation: drop 0.9s linear 8.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-8::before {
+  padding: 2px;
+}
+section .drop-8::after {
+  padding: 1px 1px;
+}
+section .drop-9 {
+  left: 2px;
+  padding: 1px;
+  -webkit-animation: drop 0.9s linear 9.1s infinite;
+          animation: drop 0.9s linear 9.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-9::before {
+  padding: 3px;
+}
+section .drop-9::after {
+  padding: 5px 1px;
+}
+section .drop-10 {
+  left: 418px;
+  padding: 2px;
+  -webkit-animation: drop 0.9s linear 10.1s infinite;
+          animation: drop 0.9s linear 10.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-10::before {
+  padding: 2px;
+}
+section .drop-10::after {
+  padding: 4px 2px;
+}
+section .drop-11 {
+  left: 94px;
+  padding: 4px;
+  -webkit-animation: drop 0.9s linear 11.1s infinite;
+          animation: drop 0.9s linear 11.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-11::before {
+  padding: 1px;
+}
+section .drop-11::after {
+  padding: 4px 1px;
+}
+section .drop-12 {
+  left: 489px;
+  padding: 4px;
+  -webkit-animation: drop 0.9s linear 12.1s infinite;
+          animation: drop 0.9s linear 12.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-12::before {
+  padding: 2px;
+}
+section .drop-12::after {
+  padding: 1px 1px;
+}
+section .drop-13 {
+  left: 621px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 13.1s infinite;
+          animation: drop 0.9s linear 13.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-13::before {
+  padding: 1px;
+}
+section .drop-13::after {
+  padding: 4px 1px;
+}
+section .drop-14 {
+  left: 31px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 14.1s infinite;
+          animation: drop 0.9s linear 14.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-14::before {
+  padding: 3px;
+}
+section .drop-14::after {
+  padding: 3px 2px;
+}
+section .drop-15 {
+  left: 61px;
+  padding: 1px;
+  -webkit-animation: drop 0.9s linear 15.1s infinite;
+          animation: drop 0.9s linear 15.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-15::before {
+  padding: 3px;
+}
+section .drop-15::after {
+  padding: 1px 2px;
+}
+section .drop-16 {
+  left: 942px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 16.1s infinite;
+          animation: drop 0.9s linear 16.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-16::before {
+  padding: 2px;
+}
+section .drop-16::after {
+  padding: 4px 1px;
+}
+section .drop-17 {
+  left: 565px;
+  padding: 1px;
+  -webkit-animation: drop 0.9s linear 17.1s infinite;
+          animation: drop 0.9s linear 17.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-17::before {
+  padding: 2px;
+}
+section .drop-17::after {
+  padding: 2px 1px;
+}
+section .drop-18 {
+  left: 693px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 18.1s infinite;
+          animation: drop 0.9s linear 18.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-18::before {
+  padding: 3px;
+}
+section .drop-18::after {
+  padding: 3px 1px;
+}
+section .drop-19 {
+  left: 1368px;
+  padding: 4px;
+  -webkit-animation: drop 0.9s linear 19.1s infinite;
+          animation: drop 0.9s linear 19.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-19::before {
+  padding: 1px;
+}
+section .drop-19::after {
+  padding: 2px 1px;
+}
+section .drop-20 {
+  left: 505px;
+  padding: 1px;
+  -webkit-animation: drop 0.9s linear 20.1s infinite;
+          animation: drop 0.9s linear 20.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-20::before {
+  padding: 1px;
+}
+section .drop-20::after {
+  padding: 4px 2px;
+}
+section .drop-21 {
+  left: 554px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 21.1s infinite;
+          animation: drop 0.9s linear 21.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-21::before {
+  padding: 2px;
+}
+section .drop-21::after {
+  padding: 2px 2px;
+}
+section .drop-22 {
+  left: 1606px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 22.1s infinite;
+          animation: drop 0.9s linear 22.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-22::before {
+  padding: 1px;
+}
+section .drop-22::after {
+  padding: 3px 2px;
+}
+section .drop-23 {
+  left: 1230px;
+  padding: 4px;
+  -webkit-animation: drop 0.9s linear 23.1s infinite;
+          animation: drop 0.9s linear 23.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-23::before {
+  padding: 1px;
+}
+section .drop-23::after {
+  padding: 4px 1px;
+}
+section .drop-24 {
+  left: 741px;
+  padding: 4px;
+  -webkit-animation: drop 0.9s linear 24.1s infinite;
+          animation: drop 0.9s linear 24.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-24::before {
+  padding: 3px;
+}
+section .drop-24::after {
+  padding: 2px 2px;
+}
+section .drop-25 {
+  left: 132px;
+  padding: 1px;
+  -webkit-animation: drop 0.9s linear 25.1s infinite;
+          animation: drop 0.9s linear 25.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-25::before {
+  padding: 3px;
+}
+section .drop-25::after {
+  padding: 5px 2px;
+}
+section .drop-26 {
+  left: 205px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 26.1s infinite;
+          animation: drop 0.9s linear 26.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-26::before {
+  padding: 2px;
+}
+section .drop-26::after {
+  padding: 4px 2px;
+}
+section .drop-27 {
+  left: 2086px;
+  padding: 2px;
+  -webkit-animation: drop 0.9s linear 27.1s infinite;
+          animation: drop 0.9s linear 27.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-27::before {
+  padding: 3px;
+}
+section .drop-27::after {
+  padding: 3px 1px;
+}
+section .drop-28 {
+  left: 985px;
+  padding: 1px;
+  -webkit-animation: drop 0.9s linear 28.1s infinite;
+          animation: drop 0.9s linear 28.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-28::before {
+  padding: 3px;
+}
+section .drop-28::after {
+  padding: 2px 1px;
+}
+section .drop-29 {
+  left: 2308px;
+  padding: 3px;
+  -webkit-animation: drop 0.9s linear 29.1s infinite;
+          animation: drop 0.9s linear 29.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-29::before {
+  padding: 1px;
+}
+section .drop-29::after {
+  padding: 4px 2px;
+}
+section .drop-30 {
+  left: 757px;
+  padding: 4px;
+  -webkit-animation: drop 0.9s linear 30.1s infinite;
+          animation: drop 0.9s linear 30.1s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+section .drop-30::before {
+  padding: 2px;
+}
+section .drop-30::after {
+  padding: 4px 2px;
+}
+
+footer {
+  height: 90px;
+  background: #fff;
+  display: flex;
+}
+footer > p {
+  margin-left: 20px;
+  font-size: 45px;
+  line-height: 90px;
+}
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  margin-left: 13px;
+  font-size: 15px;
+  line-height: 20px;
+}
+footer .wrapper div:last-child {
+  font-weight: 300;
+  text-align: right;
+}
+footer .wrapper div:last-child P:first-child span {
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-left: 20px;
+}
+footer .wrapper div:last-child span {
+  margin-left: 10px;
+}
+
+@-webkit-keyframes rise {
+  from {
+    transform: translate(-20px, 200px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes rise {
+  from {
+    transform: translate(-20px, 200px);
+  }
+  to {
+    transform: none;
+  }
+}
+@-webkit-keyframes drop {
+  0% {
+    transform: translate3d(40px, -320px, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  85% {
+    transform: translate3d(0, 0, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
+  }
+}
+@keyframes drop {
+  0% {
+    transform: translate3d(40px, -320px, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  85% {
+    transform: translate3d(0, 0, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
+  }
+}

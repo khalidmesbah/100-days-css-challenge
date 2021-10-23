@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400);
+.frame {
+	position: absolute;
+	inset: calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	color: #3f3f3f;
+	background: #2196f3;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: grid;
+	place-items: center;
+}
+label {
+	position:absolute;
+	width: 240px;
+	height: 190px;
+	display: grid;
+	place-items: center;
+}
+.back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-content: center;
+	backface-visibility: hidden;
+	transition: 800ms cubic-bezier(0.74, -0.01, 0.07, 1.02);
+	border-radius: 3px;
+	box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
+	transform: perspective(600px) rotateY(90deg);
+	pointer-events: none;
+	opacity: 0;
+	transition: all 0.5s ease;
+	background: #fff;
+	.text {
+		margin-block: 23px 10px;
+		font-size: 14px;
+		line-height: 19px;
+		font-weight: 600;
+	}
+	p {
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 17px;
+		margin: 2px 0;
+	}
+	.list {
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 88px;
+		cursor:pointer;
+		p {
+			position: relative;
+			text-align: center;
+			line-height: 40px;
+			color: #1f8de4;
+			width: 32px;
+			&:last-child::before {
+				content: "";
+				position: absolute;
+				width: 1px;
+				height: 20px;
+				left: -44px;
+				top: 10px;
+				background: #91ccfb;
+			}
+		}
+	}
+}
+.front {
+	position: absolute;
+	width:max-content;
+	display: grid;
+	place-items: center;
+	backface-visibility: hidden;
+	transition: 800ms cubic-bezier(0.74, -0.01, 0.07, 1.02);
+	transform: perspective(600px) rotateY(0deg);
+	cursor: pointer;
+	transition: all 0.5s ease 0.4s;
+	.shadow {
+		margin-top: 4px;
+		padding:2px 9px;
+		background: #1b7ac7;
+		border-radius: 50%;
+		animation: shadow 1s ease-in-out infinite alternate;
+	}
+}
+input {
+	display: none;
+	&:checked + label {
+		& > .front {
+			transform: perspective(600px) rotateY(-90deg);
+			opacity: 0;
+			transition: all 0.5s ease;
+		}
+		& > .back {
+			transform: perspective(600px) rotateY(0deg);
+			opacity: 1;
+			pointer-events: all;
+			transition: all 0.5s ease 0.4s;
+		}
+	}
+}
+@keyframes marker-move {
+	to {
+		transform: translatey(-5px);
+	}
+}
+@keyframes shadow {
+	to {
+		transform: scale(1.25);
+	}
+}

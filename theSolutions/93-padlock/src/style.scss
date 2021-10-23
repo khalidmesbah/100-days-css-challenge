@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background: #f57e15;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  place-content: center;
+}
+.lock {
+  cursor: pointer;
+  &:hover .body {
+    transform: rotate(1turn);
+    &::before {
+      transform: rotate(-360deg);
+    }
+  }
+}
+.shackle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px 60px 0 0;
+  background: #d1dde5;
+  box-shadow: inset 4px 4px 1px 0 rgb(255 255 255 / 80%),
+    inset -3px -2px 1px 0 rgb(0 0 0 / 30%), 4px 8px 12px 0 rgb(0 0 0 / 20%);
+  margin: -16px 0 -35px 15px;
+  &::before {
+    position: absolute;
+    content: "";
+    inset: 10px;
+    background: #f57e15;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 4px 4px 1px 0 rgb(255 255 255 / 80%),
+      -3px -2px 1px 0 rgb(0 0 0 / 30%), inset 4px 8px 12px 0 rgb(0 0 0 / 20%);
+  }
+}
+.body {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #333;
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: 1.5s ease-in-out;
+  &::before {
+    position: absolute;
+    content: "";
+    inset: -5px;
+    background: radial-gradient(#0000 0px 75px, #d1dde5 75px 100%);
+    border-radius: 50%;
+    box-shadow: 4px 8px 12px 0 rgb(0 0 0 / 20%),
+      inset 2px 4px 1px 0 rgb(255 255 255 / 80%),
+      inset -1px -2px 1px 0 rgb(0 0 0 / 30%);
+    transition: 1.5s ease-in-out;
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    padding: 25px;
+    background: #e7ecf0;
+    border-radius: 50%;
+    box-shadow: inset 2px 4px 1px 0 rgb(255 255 255 / 80%),
+      inset -1px -2px 1px 0 rgb(0 0 0 / 20%);
+  }
+  .line {
+    position: absolute;
+    width: 2px;
+    height: calc(100% - 10px);
+    background: linear-gradient(
+      #ccc 0px 10px,
+      #0000 10px 130px,
+      #ccc 130px 100%
+    );
+    &-1,
+    &-6,
+    &-11,
+    &-16 {
+      background: linear-gradient(
+        #fff 0px 18px,
+        #0000 18px 122px,
+        #fff 117px 100%
+      );
+      &::after,
+      &::before {
+        position: absolute;
+        inset: 21px auto auto calc(50% - 0.5ch);
+        font-size: 13px;
+        font-weight: 600;
+      }
+      &::before {
+        inset: auto auto 21px calc(50% - 1ch);
+        transform: scale(-1);
+      }
+    }
+    &-1::after {
+      content: "0";
+    }
+    &-6::after {
+      content: "5";
+    }
+    &-11::after {
+      content: "10";
+      left: calc(50% - 1ch);
+    }
+    &-16::after {
+      content: "15";
+      left: calc(50% - 1ch);
+    }
+    &-1::before {
+      content: "20";
+    }
+    &-6::before {
+      content: "25";
+    }
+    &-11::before {
+      content: "30";
+      left: calc(50% - 1ch);
+    }
+    &-16::before {
+      content: "35";
+      left: calc(50% - 1ch);
+    }
+  }
+}
+@for $i from 1 through 20 {
+  .line-#{$i} {
+    transform: rotate((($i - 1) * 9) + deg);
+  }
+}

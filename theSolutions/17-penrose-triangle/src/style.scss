@@ -1,0 +1,35 @@
+.frame {
+	position: absolute;
+	padding: 200px;
+	inset:calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgb(0 0 0 / 30%);
+	background: repeating-linear-gradient(45deg, #353535 0 4px, #fff 4px 20px);
+}
+.center {
+	position: absolute;
+	inset: 70px;
+	background: #353535;
+	border-radius: 3px;
+	box-shadow: 8px 10px 15px 0 rgb(0 0 0 / 30%);
+	svg {
+		position: absolute;
+		width: 160px;
+		height: 140px;
+		inset: 60px 50px;
+		* {
+			transition: all 0.5s ease-in-out;
+		}
+		&:hover {
+			.middle {
+				fill: #eee;
+			}
+			.dark {
+				fill: #ccc;
+			}
+			.light {
+				fill: #aaa;
+			}
+		}
+	}
+}

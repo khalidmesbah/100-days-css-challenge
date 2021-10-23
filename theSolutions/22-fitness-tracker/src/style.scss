@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300);
+.frame {
+	position: absolute;
+	inset: calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	background: #28404e;
+	background: linear-gradient(to bottom, #28404e 0%, #1c2e38 100%);
+	color: #fff;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.headline {
+	margin-top: 54px;
+	font-weight: 600;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 22px;
+	.small {
+		font-weight: 300;
+		font-size: 16px;
+	}
+}
+.circle-big {
+	position: relative;
+	width: 114px;
+	margin: 30px auto 22px auto;
+	.text {
+		position: absolute;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 22px;
+		inset:calc(50% - 21px) 10px;
+		.small {
+			font-size: 14px;
+			color: #648192;
+		}
+	}
+}
+.circles-small {
+	text-align: center;
+}
+.circle-small {
+	display: inline-block;
+	position: relative;
+	height: 80px;
+	margin: 0 20px;
+	.text {
+		position: absolute;
+		font-size: 17px;
+		text-align: center;
+		line-height: 16px;
+		inset:calc(50% - 14px) 10px;
+		.small {
+			font-size: 12px;
+			color: #648192;
+		}
+	}
+}
+@keyframes big {
+	from {
+		stroke-dashoffset: 326.5;
+	}
+	to {
+		stroke-dashoffset: 60;
+	}
+}
+@keyframes one {
+	from {
+		stroke-dashoffset: 232.36;
+	}
+	to {
+		stroke-dashoffset: 80;
+	}
+}
+@keyframes two {
+	from {
+		stroke-dashoffset:232.36;
+	}
+	to {
+		stroke-dashoffset: 140;
+	}
+}

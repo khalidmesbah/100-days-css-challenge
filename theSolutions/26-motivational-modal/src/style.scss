@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400);
+.frame {
+	position: absolute;
+	inset: calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	background: #c7d6e1;
+	color: #fff;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: grid;
+	place-items: center;
+}
+.card {
+	position: absolute;
+	width: 240px;
+	height: 150px;
+	background: linear-gradient(-135deg, #8391a1 10.5%, #fff 10.5%100%);
+	box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	text-align: center;
+	pointer-events: none;
+	opacity: 0;
+	transform: scale(0.5);
+	&-1 {
+		animation: fadeIn 0.6s ease-in-out both 0.5s;
+		pointer-events: all;
+		z-index: 1;
+	}
+	&::before {
+		position: absolute;
+		content: attr(num);
+		inset: 5px 8px auto auto;
+		font-size: 13px;
+		font-weight: 600;
+	}
+}
+h5 {
+	font-size: 14px;
+	font-weight: 600;
+	color: #616e7d;
+	margin-bottom: -1px;
+}
+p {
+	font-size: 12px;
+	line-height: 17px;
+	color: #8391a1;
+}
+label {
+	position: absolute;
+	inset: calc(100% - 40px) 0 0 0;
+	background: #3ca7fb;
+	cursor: pointer;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 38px;
+	font-size: 13px;
+	transition: all 0.3s ease-in-out;
+	&:hover {
+		background: #2196f3;
+	}
+}
+input {
+	display: none;
+	$fe: 1;
+	$ls: $fe + 1;
+	$n: 1;
+	@for $i from 1 through 3 {
+		&#check-#{$n}:checked {
+			~ .card-#{$n} {
+				z-index: $fe;
+				animation: fadeOut 0.5s ease-in-out both;
+			}
+			~ .card-#{$n + 1} {
+				pointer-events: all;
+				z-index: $ls;
+				animation: fadeIn 0.6s ease-in-out both 0.5s;
+			}
+			@if ($n == 3) {
+				~ .card-#{$n} {
+					z-index: $fe;
+					animation: fadeOut 0.5s ease-in-out both;
+				}
+				~ .card-#{$n - 2 } {
+					pointer-events: all;
+					z-index: $ls;
+					animation: fadeIn 0.6s ease-in-out both 0.5s;
+				}
+			}
+		}
+		$n: $n + 1;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+		transform: scale(1);
+	}
+	to {
+		opacity: 0;
+		transform: scale(1.15);
+	}
+}

@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+	position: absolute;
+	inset: calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+	background: #fda231;
+	background: linear-gradient(to top right, #fda231 0%, #fdca31 100%);
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: grid;
+	place-content: center;
+}
+.tasks-list {
+	width: 240px;
+	height: 280px;
+	background: #fff;
+	box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	color: #497081;
+}
+.history {
+	position: relative;
+	text-align: center;
+	font-size: 12px;
+	padding: 23px 0;
+	&::after {
+		position: absolute;
+		content: "";
+		inset: calc(100% - 0.5px) 30px 0 30px;
+		background: #d4dce0;
+	}
+	.day {
+		font-weight: 600;
+		font-size: 20px;
+		margin-bottom: 6px;
+	}
+}
+ul {
+	padding: 16px 30px;
+	list-style: none;
+	font-size: 13px;
+	transition: all 0.3s ease-in-out;
+}
+li {
+	width: 100%;
+	line-height: 14px;
+	& ~ li{
+		margin:24px 0;
+	}
+	position: relative;
+	input {
+		display: none;
+		&:checked {
+			& + label {
+				color: #c8d4d9;
+				&::after {
+					transition: all 0.4s ease-in;
+					transform: scale(1.5);
+					opacity: 0;
+				}
+			}
+			& ~ .checkmark {
+				stroke-dashoffset: 0 !important;
+				transition: all 0.5s ease-out 0.4s;
+			}
+		}
+	}
+	label {
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+		&::after {
+			position: absolute;
+			content: "";
+			right: 0;
+			width: 12px;
+			height: 12px;
+			border: 1px solid#497081;
+			border-radius: 50%;
+			cursor: pointer;
+			transition: all 0.4s ease-out 0.5s;
+		}
+	}
+	.checkmark {
+		position: absolute;
+		inset:2px 0 auto auto;
+		transition: all 0.5s ease-out;
+	}
+}

@@ -1,0 +1,32 @@
+.frame {
+	position: absolute;
+	inset:calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgb(0 0 0 / 20%);
+	background: #1f91dd;
+}
+.ellipse {
+  position: absolute;
+	inset:50px auto auto 150px;
+	padding:150px 45px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+@for $i from 0 through 17 {
+	$degree: 10 * $i;
+	.ellipse-#{$i} {
+		animation: ellipse-#{$i} 5s ease-in-out infinite;
+	}
+	@keyframes ellipse-#{$i} {
+		from {
+			transform: rotate( ($degree)+deg );
+		}
+		50% {
+			transform: rotate(0) scaleX(3.34);
+			border-radius: 0;
+		}
+		to {
+			transform: rotate( (360 - $degree)+deg );
+		}
+	}
+}

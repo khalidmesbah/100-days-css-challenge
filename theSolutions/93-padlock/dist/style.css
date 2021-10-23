@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background: #f57e15;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  place-content: center;
+}
+
+.lock {
+  cursor: pointer;
+}
+.lock:hover .body {
+  transform: rotate(1turn);
+}
+.lock:hover .body::before {
+  transform: rotate(-360deg);
+}
+
+.shackle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px 60px 0 0;
+  background: #d1dde5;
+  box-shadow: inset 4px 4px 1px 0 rgba(255, 255, 255, 0.8), inset -3px -2px 1px 0 rgba(0, 0, 0, 0.3), 4px 8px 12px 0 rgba(0, 0, 0, 0.2);
+  margin: -16px 0 -35px 15px;
+}
+.shackle::before {
+  position: absolute;
+  content: "";
+  inset: 10px;
+  background: #f57e15;
+  border-radius: 50px 50px 0 0;
+  box-shadow: 4px 4px 1px 0 rgba(255, 255, 255, 0.8), -3px -2px 1px 0 rgba(0, 0, 0, 0.3), inset 4px 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.body {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #333;
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: 1.5s ease-in-out;
+}
+.body::before {
+  position: absolute;
+  content: "";
+  inset: -5px;
+  background: radial-gradient(#0000 0px 75px, #d1dde5 75px 100%);
+  border-radius: 50%;
+  box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 1px 0 rgba(255, 255, 255, 0.8), inset -1px -2px 1px 0 rgba(0, 0, 0, 0.3);
+  transition: 1.5s ease-in-out;
+}
+.body::after {
+  position: absolute;
+  content: "";
+  padding: 25px;
+  background: #e7ecf0;
+  border-radius: 50%;
+  box-shadow: inset 2px 4px 1px 0 rgba(255, 255, 255, 0.8), inset -1px -2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+.body .line {
+  position: absolute;
+  width: 2px;
+  height: calc(100% - 10px);
+  background: linear-gradient(#ccc 0px 10px, #0000 10px 130px, #ccc 130px 100%);
+}
+.body .line-1, .body .line-6, .body .line-11, .body .line-16 {
+  background: linear-gradient(#fff 0px 18px, #0000 18px 122px, #fff 117px 100%);
+}
+.body .line-1::after, .body .line-1::before, .body .line-6::after, .body .line-6::before, .body .line-11::after, .body .line-11::before, .body .line-16::after, .body .line-16::before {
+  position: absolute;
+  inset: 21px auto auto calc(50% - 0.5ch);
+  font-size: 13px;
+  font-weight: 600;
+}
+.body .line-1::before, .body .line-6::before, .body .line-11::before, .body .line-16::before {
+  inset: auto auto 21px calc(50% - 1ch);
+  transform: scale(-1);
+}
+.body .line-1::after {
+  content: "0";
+}
+.body .line-6::after {
+  content: "5";
+}
+.body .line-11::after {
+  content: "10";
+  left: calc(50% - 1ch);
+}
+.body .line-16::after {
+  content: "15";
+  left: calc(50% - 1ch);
+}
+.body .line-1::before {
+  content: "20";
+}
+.body .line-6::before {
+  content: "25";
+}
+.body .line-11::before {
+  content: "30";
+  left: calc(50% - 1ch);
+}
+.body .line-16::before {
+  content: "35";
+  left: calc(50% - 1ch);
+}
+
+.line-1 {
+  transform: rotate(0deg);
+}
+
+.line-2 {
+  transform: rotate(9deg);
+}
+
+.line-3 {
+  transform: rotate(18deg);
+}
+
+.line-4 {
+  transform: rotate(27deg);
+}
+
+.line-5 {
+  transform: rotate(36deg);
+}
+
+.line-6 {
+  transform: rotate(45deg);
+}
+
+.line-7 {
+  transform: rotate(54deg);
+}
+
+.line-8 {
+  transform: rotate(63deg);
+}
+
+.line-9 {
+  transform: rotate(72deg);
+}
+
+.line-10 {
+  transform: rotate(81deg);
+}
+
+.line-11 {
+  transform: rotate(90deg);
+}
+
+.line-12 {
+  transform: rotate(99deg);
+}
+
+.line-13 {
+  transform: rotate(108deg);
+}
+
+.line-14 {
+  transform: rotate(117deg);
+}
+
+.line-15 {
+  transform: rotate(126deg);
+}
+
+.line-16 {
+  transform: rotate(135deg);
+}
+
+.line-17 {
+  transform: rotate(144deg);
+}
+
+.line-18 {
+  transform: rotate(153deg);
+}
+
+.line-19 {
+  transform: rotate(162deg);
+}
+
+.line-20 {
+  transform: rotate(171deg);
+}

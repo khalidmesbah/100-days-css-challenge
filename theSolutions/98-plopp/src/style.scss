@@ -1,0 +1,301 @@
+.frame {
+	position: absolute;
+	inset: calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgb(0 0 0 / 30%);
+	overflow: hidden;
+	background: #2c3e50;
+	display: grid;
+	place-items: center;
+}
+.box {
+	position: relative;
+	width: 160px;
+	height: 160px;
+	.triangle {
+		position: absolute;
+		border-style: solid;
+		border-width: 80px;
+		&-top {
+			border-color: #3f91c7 #0000 #0000;
+			animation: top 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes top {
+				20% {
+					transform: translateY(0);
+				}
+				to {
+					transform: translateY(-180px);
+				}
+			}
+		}
+		&-right {
+			border-color: #0000 #2b82bb #0000 #0000;
+			animation: right 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes right {
+				20% {
+					transform: translateX(0);
+				}
+				to {
+					transform: translateX(180px);
+				}
+			}
+		}
+		&-bottom {
+			border-color: #0000 #0000 #2578ae;
+			animation: bottom 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes bottom {
+				20% {
+					transform: translateY(0);
+				}
+				to {
+					transform: translateY(180px);
+				}
+			}
+		}
+		&-left {
+			border-color: #0000 #0000 #0000 #3289c3;
+			animation: left 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes left {
+				20% {
+					transform: translateX(0);
+				}
+				to {
+					transform: translateX(-180px);
+				}
+			}
+		}
+	}
+}
+.shapes {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	.color-1 {
+		background: #f39c12;
+		border-color: #f39c12;
+	}
+	.color-2 {
+		background: #e67e22;
+		border-color: #e67e22;
+	}
+	.color-3 {
+		background: #1abc9c;
+		border-color: #1abc9c;
+	}
+	.big {
+		width: 30px;
+		height: 30px;
+	}
+	.normal {
+		width: 20px;
+		height: 20px;
+	}
+	.small {
+		width: 10px;
+		height: 10px;
+	}
+	.square {
+		position: absolute;
+		&-1 {
+			animation: square-1 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes square-1 {
+				0%,
+				20% {
+					transform: scale(0) translate(0) rotate(0);
+				}
+				100% {
+					transform: scale(1) translate(66px, 78px) rotate(110deg);
+				}
+			}
+		}
+		&-2 {
+			animation: square-2 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes square-2 {
+				0%,
+				20% {
+					transform: scale(0) translate(0) rotate(0);
+				}
+				100% {
+					transform: scale(1) translate(46px, -141px) rotate(163deg);
+				}
+			}
+		}
+		&-3 {
+			animation: square-3 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes square-3 {
+				0%,
+				20% {
+					transform: scale(0) translate(0) rotate(0);
+				}
+				100% {
+					transform: scale(1) translate(131px, -117px) rotate(126deg);
+				}
+			}
+		}
+		&-4 {
+			animation: square-4 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes square-4 {
+				0%,
+				20% {
+					transform: scale(0) translate(0) rotate(0);
+				}
+				100% {
+					transform: scale(1) translate(91px, -94px) rotate(122deg);
+				}
+			}
+		}
+		&-5 {
+			animation: square-5 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes square-5 {
+				0%,
+				20% {
+					transform: scale(0) translate(0) rotate(0);
+				}
+				100% {
+					transform: scale(1) translate(131px, -10px) rotate(111deg);
+				}
+			}
+		}
+		&-6 {
+			animation: square-6 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes square-6 {
+				0%,
+				20% {
+					transform: scale(0) translate(0) rotate(0);
+				}
+				100% {
+					transform: scale(1) translate(-94px, -66px) rotate(125deg);
+				}
+			}
+		}
+		&-7 {
+			animation: square-7 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes square-7 {
+				0%,
+				20% {
+					transform: scale(0) translate(0) rotate(0);
+				}
+				100% {
+					transform: scale(1) translate(-102px, 50px) rotate(139deg);
+				}
+			}
+		}
+		&-8 {
+			animation: square-8 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes square-8 {
+				0%,
+				20% {
+					transform: scale(0) translate(0) rotate(0);
+				}
+				100% {
+					transform: scale(1) translate(-62px, 20px) rotate(118deg);
+				}
+			}
+		}
+	}
+	.circle {
+		position: absolute;
+		box-sizing: border-box;
+		border-radius: 50%;
+		border-style: solid;
+		border-width: 4px;
+		background: #0000 !important;
+		&-1 {
+			animation: circle-1 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes circle-1 {
+				0%,
+				20% {
+					transform: scale(0) translate(0);
+				}
+				100% {
+					transform: scale(1) translate(13px, -113px);
+				}
+			}
+		}
+		&-2 {
+			animation: circle-2 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes circle-2 {
+				0%,
+				20% {
+					transform: scale(0) translate(0);
+				}
+
+				100% {
+					transform: scale(1) translate(29px, -71px);
+				}
+			}
+		}
+		&-3 {
+			animation: circle-3 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes circle-3 {
+				0%,
+				20% {
+					transform: scale(0) translate(0);
+				}
+				100% {
+					transform: scale(1) translate(1px, -72px);
+				}
+			}
+		}
+		&-4 {
+			animation: circle-4 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes circle-4 {
+				0%,
+				20% {
+					transform: scale(0) translate(0);
+				}
+				100% {
+					transform: scale(1) translate(-62px, 132px);
+				}
+			}
+		}
+		&-5 {
+			animation: circle-5 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes circle-5 {
+				0%,
+				20% {
+					transform: scale(0) translate(0);
+				}
+				100% {
+					transform: scale(1) translate(18px, 86px);
+				}
+			}
+		}
+		&-6 {
+			animation: circle-6 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes circle-6 {
+				0%,
+				20% {
+					transform: scale(0) translate(0);
+				}
+				100% {
+					transform: scale(1) translate(62px, 15px);
+				}
+			}
+		}
+		&-7 {
+			animation: circle-7 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes circle-7 {
+				0%,
+				20% {
+					transform: scale(0) translate(0);
+				}
+				100% {
+					transform: scale(1) translate(74px, -25px);
+				}
+			}
+		}
+		&-8 {
+			animation: circle-8 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
+			@keyframes circle-8 {
+				0%,
+				20% {
+					transform: scale(0) translate(0);
+				}
+				100% {
+					transform: scale(1) translate(95px, -45px);
+				}
+			}
+		}
+	}
+}

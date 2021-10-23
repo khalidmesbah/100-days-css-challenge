@@ -1,0 +1,69 @@
+.frame {
+	position: absolute;
+	inset: calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+	background: #8e44ad;
+	* {
+		background: #fff;
+		position: fixed;
+		padding: var(--p);
+		margin: var(--m);
+		border-radius: var(--b);
+	}
+}
+.head {
+	--p: 20px;
+	--m: 90px 180px;
+	--b: 50%;
+}
+.body {
+	--p: 50px 25px;
+	--m: 140px 175px;
+}
+.legs {
+	--p: 50px 12px;
+	--m: 234px 175px;
+	--b: 0 0 50px 50px;
+	box-shadow: 26px 0 0 0 #fff;
+}
+.upper-arm-left {
+	--p: 25px 8px;
+	--m: 140px 165px;
+	--b: 8px;
+	transform: rotate(10deg);
+	transform-origin: 8px 8px;
+	.fore-arm-left {
+		--p: 26px 8px;
+		--m: 9px -8px;
+		--b: 8px;
+		transform: rotate(-5deg);
+		transform-origin: 8px 8px;
+	}
+}
+.upper-arm-right {
+	--p: 25px 8px;
+	--m: 140px 220px;
+	--b: 8px;
+	transform-origin: 8px 8px;
+	animation: upper-arm 1s ease-in-out infinite alternate;
+	transform: rotate(-75deg);
+	@keyframes upper-arm {
+		to {
+			transform: rotate(-85deg);
+		}
+	}
+	.fore-arm-right {
+		--p: 8px 25px;
+		--m: 10px -8px;
+		--b: 8px;
+		transform-origin: 8px 8px;
+		transform: rotate(10deg);
+		animation: fore-arm 1s ease-in-out infinite alternate;
+		@keyframes fore-arm {
+			to {
+				transform: rotate(-20deg);
+			}
+		}
+	}
+}

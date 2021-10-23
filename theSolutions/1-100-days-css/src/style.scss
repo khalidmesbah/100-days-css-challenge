@@ -1,0 +1,63 @@
+.frame {
+	position: absolute;
+	inset: 0;
+	border-radius: 2px;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	border-radius: 2px;
+	overflow: hidden;
+	background: linear-gradient(45deg, #43389f 0%, #4ec6ca 100%);
+	color: #333;
+	font-family: "Courier New", "Courier", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: grid;
+	place-content: center;
+}
+.n100 {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	span {
+		padding: 25px;
+		border: 25px solid #fff;
+		border-radius: 50%;
+		box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+		&:first-child {
+			z-index: 1;
+			transform: translatex(17px);
+		}
+	}
+	&::before,
+	&::after {
+		position: absolute;
+		content: "";
+		box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+		border-radius: 3px;
+		background: #fff;
+	}
+	&::before {
+		padding: 20px 10px;
+		transform: translate(-196px) rotate(50deg);
+	}
+	&::after {
+		padding: 50px 12px;
+		left: 0;
+		z-index: 1;
+	}
+}
+.big {
+	font-size: 82px;
+	line-height: 60px;
+	margin-top: 6px;
+}
+.small {
+	font-size: 23px;
+	line-height: 20px;
+	letter-spacing: 0.04em;
+}

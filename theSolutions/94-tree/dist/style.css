@@ -1,0 +1,137 @@
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  background: #e0f0e5;
+  display: grid;
+  place-items: center;
+}
+
+.tree {
+  position: absolute;
+  display: grid;
+  place-items: center;
+}
+
+.leaf {
+  position: absolute;
+  top: -140px;
+  left: -62px;
+  border-style: solid;
+  border-width: 0 62px 204px 62px;
+  border-color: #0000 #0000 #e84624 #0000;
+  transform: scaleX(0);
+  -webkit-animation: scaleX 1s ease-in-out 0.7s both;
+          animation: scaleX 1s ease-in-out 0.7s both;
+}
+.leaf::after {
+  position: absolute;
+  content: "";
+  left: -62px;
+  width: 62px;
+  height: 204px;
+  background: linear-gradient(107deg, #0000 50%, #0003 50%);
+}
+
+.trunk {
+  position: absolute;
+  width: 4px;
+  height: 200px;
+  background: #e8c87e;
+  border-radius: 2px;
+  transform-origin: 50% 100%;
+  margin-top: 40px;
+  transform: scaleY(0);
+  -webkit-animation: scaleY 0.7s ease-in-out both;
+          animation: scaleY 0.7s ease-in-out both;
+}
+.trunk .branch {
+  position: absolute;
+  width: 4px;
+  height: 60px;
+  transform: rotate(-40deg);
+  background: #e8c87e;
+  border-radius: 2px;
+  transform-origin: 50% 100%;
+}
+.trunk .branch-1 {
+  inset: 80px 0 auto auto;
+}
+.trunk .branch-2 {
+  inset: 40px 0 auto auto;
+  height: 40px;
+}
+.trunk .branch-3 {
+  inset: 0 0 auto auto;
+  height: 20px;
+}
+.trunk .branch-4 {
+  inset: 20px 0 auto auto;
+  height: 30px;
+  transform: rotate(40deg);
+}
+.trunk .branch-5 {
+  inset: 60px 0 auto auto;
+  height: 50px;
+  transform: rotate(40deg);
+}
+
+.root {
+  position: absolute;
+  width: 80px;
+  height: 4px;
+  background: #b9d6c2;
+  border-radius: 2px;
+  top: 116px;
+  transform: scaleX(0);
+  -webkit-animation: scaleX 0.7s ease-in-out both;
+          animation: scaleX 0.7s ease-in-out both;
+}
+
+@-webkit-keyframes scaleX {
+  60% {
+    transform: scaleX(1.1);
+  }
+  80% {
+    transform: scaleX(0.95);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes scaleX {
+  60% {
+    transform: scaleX(1.1);
+  }
+  80% {
+    transform: scaleX(0.95);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@-webkit-keyframes scaleY {
+  60% {
+    transform: scaleY(1.1);
+  }
+  80% {
+    transform: scaleY(0.95);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes scaleY {
+  60% {
+    transform: scaleY(1.1);
+  }
+  80% {
+    transform: scaleY(0.95);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}

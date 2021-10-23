@@ -1,0 +1,171 @@
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background: #684595;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: none;
+}
+input:checked ~ .microphone circle {
+  -webkit-animation: circle 5s linear infinite;
+          animation: circle 5s linear infinite;
+}
+@-webkit-keyframes circle {
+  to {
+    stroke-dashoffset: -592;
+    transform: rotate(1turn);
+  }
+}
+@keyframes circle {
+  to {
+    stroke-dashoffset: -592;
+    transform: rotate(1turn);
+  }
+}
+input:checked ~ .microphone .icon {
+  -webkit-animation: fade-in 0.7s ease-in-out both;
+          animation: fade-in 0.7s ease-in-out both;
+}
+@-webkit-keyframes fade-in {
+  30% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+@keyframes fade-in {
+  30% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+input:checked ~ .microphone .dots {
+  -webkit-animation: dots 1s ease-in-out both;
+          animation: dots 1s ease-in-out both;
+}
+@-webkit-keyframes dots {
+  0%, 60% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes dots {
+  0%, 60% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+input:checked ~ .microphone .dot {
+  -webkit-animation: dot 1s ease-in-out infinite;
+          animation: dot 1s ease-in-out infinite;
+}
+@-webkit-keyframes dot {
+  from, to {
+    transform: translatey(5px);
+  }
+  50% {
+    transform: translatey(-5px);
+  }
+}
+@keyframes dot {
+  from, to {
+    transform: translatey(5px);
+  }
+  50% {
+    transform: translatey(-5px);
+  }
+}
+
+label {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.microphone {
+  padding-inline: 50px;
+  aspect-ratio: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.microphone circle {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 296 296;
+  transform-origin: 50%;
+}
+.microphone .icon {
+  position: absolute;
+  width: 24px;
+  height: 66px;
+}
+.microphone .icon .t {
+  padding: 26px 12px;
+  background: #fff;
+  border-radius: 50px;
+}
+.microphone .icon .t::before {
+  position: absolute;
+  content: "";
+  padding: 8px 3px;
+  background: #684595;
+  border-radius: 50px;
+  inset: 7px auto auto 9px;
+}
+.microphone .icon .lv {
+  position: absolute;
+  padding: 7.5px 2px;
+  inset: 51px auto auto 10px;
+  background: #fff;
+}
+.microphone .icon .lh {
+  position: absolute;
+  padding: 2px 12px;
+  bottom: 0;
+  background: #fff;
+  border-radius: 50px;
+}
+.microphone .dots {
+  background: #f0;
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+}
+.microphone .dots .dot {
+  padding: 5px;
+  background: #fff;
+  border-radius: 50%;
+}
+.microphone .dots .dot:nth-of-type(2) {
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+.microphone .dots .dot:last-of-type {
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}

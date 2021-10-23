@@ -1,0 +1,105 @@
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  background: #363847;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  display: grid;
+  place-items: center;
+}
+
+.eye {
+  padding: 80px;
+  background: #d8d8d8;
+  border-radius: 0 100%;
+  transform: rotate(-45deg);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.eye .iris {
+  position: absolute;
+  padding: 55px;
+  background: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  -webkit-animation: iris 5s ease-in-out infinite;
+          animation: iris 5s ease-in-out infinite;
+}
+@-webkit-keyframes iris {
+  0%, 14%, 56% {
+    transform: rotate(45deg);
+  }
+  18%, 30% {
+    transform: rotate(45deg) translate(-25px, 5px) scale(0.9);
+  }
+  34%, 52% {
+    transform: rotate(45deg) translate(25px, 10px) scale(0.9);
+  }
+}
+@keyframes iris {
+  0%, 14%, 56% {
+    transform: rotate(45deg);
+  }
+  18%, 30% {
+    transform: rotate(45deg) translate(-25px, 5px) scale(0.9);
+  }
+  34%, 52% {
+    transform: rotate(45deg) translate(25px, 10px) scale(0.9);
+  }
+}
+.eye .iris .pupil {
+  position: absolute;
+  background: #617983;
+  padding: 18px;
+  border-radius: 50%;
+}
+
+.lid-top {
+  position: absolute;
+  inset: 125px auto auto 80px;
+  transform: translateY(-60px);
+  -webkit-animation: lid-top 5s ease-in-out infinite;
+          animation: lid-top 5s ease-in-out infinite;
+}
+@-webkit-keyframes lid-top {
+  0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84% {
+    transform: translateY(-60px);
+  }
+  14%, 30%, 52%, 80% {
+    transform: translateY(0);
+  }
+}
+@keyframes lid-top {
+  0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84% {
+    transform: translateY(-60px);
+  }
+  14%, 30%, 52%, 80% {
+    transform: translateY(0);
+  }
+}
+
+.lid-bottom {
+  position: absolute;
+  inset: auto auto 125px 80px;
+  transform: scaley(-1) translateY(-60px);
+  -webkit-animation: lid-bottom 5s ease-in-out infinite;
+          animation: lid-bottom 5s ease-in-out infinite;
+}
+@-webkit-keyframes lid-bottom {
+  0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84% {
+    transform: scaley(-1) translateY(-60px);
+  }
+  14%, 30%, 52%, 80% {
+    transform: scaley(-1) translateY(0);
+  }
+}
+@keyframes lid-bottom {
+  0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84% {
+    transform: scaley(-1) translateY(-60px);
+  }
+  14%, 30%, 52%, 80% {
+    transform: scaley(-1) translateY(0);
+  }
+}

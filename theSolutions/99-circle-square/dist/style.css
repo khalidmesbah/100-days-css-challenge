@@ -1,0 +1,100 @@
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background: #27ae60;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.background {
+  padding: 200px;
+  background: #2ecc71;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: all 0.6s ease-in-out;
+}
+
+.circle {
+  position: absolute;
+  padding: 15px;
+  border-radius: 50%;
+  background: #fff;
+  transition: all 0.6s ease-in-out;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.circle::before {
+  position: absolute;
+  content: "";
+  inset: -60px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  transform: scale(0);
+  transition: transform 0.6s ease-in, opacity 0.3s ease-in;
+}
+
+.lines {
+  position: absolute;
+  inset: 0;
+  transform: scale(0);
+  transition: transform 0.6s ease-in, opacity 0.3s ease-in;
+  display: grid;
+  place-items: center;
+}
+.lines .line {
+  position: absolute;
+  padding: 133px 2px;
+  background: linear-gradient(#fff 0 26px, #0000 26px calc(100% - 26px), #fff calc(100% - 26px) 100%);
+}
+.lines .line-1 {
+  transform: rotate(0deg);
+}
+.lines .line-2 {
+  transform: rotate(20deg);
+}
+.lines .line-3 {
+  transform: rotate(40deg);
+}
+.lines .line-4 {
+  transform: rotate(60deg);
+}
+.lines .line-5 {
+  transform: rotate(80deg);
+}
+.lines .line-6 {
+  transform: rotate(100deg);
+}
+.lines .line-7 {
+  transform: rotate(120deg);
+}
+.lines .line-8 {
+  transform: rotate(140deg);
+}
+.lines .line-9 {
+  transform: rotate(160deg);
+}
+
+input {
+  display: none;
+}
+input:checked + label .background {
+  transform: scale(1.5);
+}
+input:checked + label .circle {
+  border-radius: 0;
+  transform: rotate(180deg) scale(1.1);
+  box-shadow: -4px -8px 16px rgba(0, 0, 0, 0.2);
+}
+input:checked + label .circle::before {
+  opacity: 0;
+  transform: scale(1);
+  transition: transform 0.6s ease-out, opacity 0.3s ease-out 0.3s;
+}
+input:checked + label .lines {
+  opacity: 0;
+  transform: scale(1);
+  transition: transform 0.6s ease-out, opacity 0.3s ease-out 0.3s;
+}
