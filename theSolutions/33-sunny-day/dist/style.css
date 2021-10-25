@@ -1,0 +1,55 @@
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #75c1e8;
+}
+
+.sun {
+  position: absolute;
+  padding: 32px;
+  top: 40px;
+  left: 52px;
+  background: #ffd93c;
+  border-radius: 50%;
+  -webkit-animation: move-sun 60s linear infinite alternate both;
+          animation: move-sun 60s linear infinite alternate both;
+}
+@-webkit-keyframes move-sun {
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes move-sun {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.cloud {
+  position: absolute;
+  top: 118px;
+  left: 280px;
+  -webkit-animation: move-cloud 60s linear infinite alternate both;
+          animation: move-cloud 60s linear infinite alternate both;
+}
+.cloud-medium {
+  top: 89px;
+  left: 50px;
+}
+.cloud-small {
+  top: 74px;
+  left: 195px;
+}
+@-webkit-keyframes move-cloud {
+  to {
+    transform: translateX(-300%);
+  }
+}
+@keyframes move-cloud {
+  to {
+    transform: translateX(-300%);
+  }
+}
