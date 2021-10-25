@@ -52,7 +52,7 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 | :white_check_mark: | [100 Days CSS Challenge #040 ==> Gallery](https://100dayscss.com/days/40/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/KKqGrme)|
 | :white_check_mark: | [100 Days CSS Challenge #041 ==> Error Modal](https://100dayscss.com/days/41/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/KKqGJqa)|
 | :white_check_mark: | [100 Days CSS Challenge #042 ==> Stars](https://100dayscss.com/days/42/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/WNOaPdo)|
-| :white_check_markn: | [100 Days CSS Challenge #043 ==> Lightbulb](https://100dayscss.com/days/43/)|[Solution/preview]()|
+| :white_check_mark: | [100 Days CSS Challenge #043 ==> Lightbulb](https://100dayscss.com/days/43/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/OJjpvop)|
 | :white_check_markn: | [100 Days CSS Challenge #044 ==> Twisted Pyramid](https://100dayscss.com/days/44/)|[Solution/preview]()|
 | :white_check_markn: | [100 Days CSS Challenge #045 ==> Button](https://100dayscss.com/days/45/)|[Solution/preview]()|
 | :white_check_markn: | [100 Days CSS Challenge #046 ==> Iris Circles](https://100dayscss.com/days/46/)|[Solution/preview]()|
