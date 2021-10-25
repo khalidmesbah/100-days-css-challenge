@@ -1,0 +1,171 @@
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #222;
+  display: grid;
+  place-items: center;
+}
+.frame:hover .square {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.square {
+  position: absolute;
+  border: 1px solid #888;
+}
+
+.square-1 {
+  padding: 99px;
+  border-color: #4e4e4e;
+  -webkit-animation: rotate 2s ease-in-out 0.0333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.0333333333s alternate infinite;
+}
+
+.square-2 {
+  padding: 94px;
+  border-color: #565656;
+  -webkit-animation: rotate 2s ease-in-out 0.0666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.0666666667s alternate infinite;
+}
+
+.square-3 {
+  padding: 89px;
+  border-color: #5e5e5e;
+  -webkit-animation: rotate 2s ease-in-out 0.1s alternate infinite;
+          animation: rotate 2s ease-in-out 0.1s alternate infinite;
+}
+
+.square-4 {
+  padding: 84px;
+  border-color: #666666;
+  -webkit-animation: rotate 2s ease-in-out 0.1333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.1333333333s alternate infinite;
+}
+
+.square-5 {
+  padding: 79px;
+  border-color: #6e6e6e;
+  -webkit-animation: rotate 2s ease-in-out 0.1666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.1666666667s alternate infinite;
+}
+
+.square-6 {
+  padding: 74px;
+  border-color: #767676;
+  -webkit-animation: rotate 2s ease-in-out 0.2s alternate infinite;
+          animation: rotate 2s ease-in-out 0.2s alternate infinite;
+}
+
+.square-7 {
+  padding: 69px;
+  border-color: #7e7e7e;
+  -webkit-animation: rotate 2s ease-in-out 0.2333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.2333333333s alternate infinite;
+}
+
+.square-8 {
+  padding: 64px;
+  border-color: #868686;
+  -webkit-animation: rotate 2s ease-in-out 0.2666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.2666666667s alternate infinite;
+}
+
+.square-9 {
+  padding: 59px;
+  border-color: #8e8e8e;
+  -webkit-animation: rotate 2s ease-in-out 0.3s alternate infinite;
+          animation: rotate 2s ease-in-out 0.3s alternate infinite;
+}
+
+.square-10 {
+  padding: 54px;
+  border-color: #969696;
+  -webkit-animation: rotate 2s ease-in-out 0.3333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.3333333333s alternate infinite;
+}
+
+.square-11 {
+  padding: 49px;
+  border-color: #9e9e9e;
+  -webkit-animation: rotate 2s ease-in-out 0.3666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.3666666667s alternate infinite;
+}
+
+.square-12 {
+  padding: 44px;
+  border-color: #a6a6a6;
+  -webkit-animation: rotate 2s ease-in-out 0.4s alternate infinite;
+          animation: rotate 2s ease-in-out 0.4s alternate infinite;
+}
+
+.square-13 {
+  padding: 39px;
+  border-color: #aeaeae;
+  -webkit-animation: rotate 2s ease-in-out 0.4333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.4333333333s alternate infinite;
+}
+
+.square-14 {
+  padding: 34px;
+  border-color: #b6b6b6;
+  -webkit-animation: rotate 2s ease-in-out 0.4666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.4666666667s alternate infinite;
+}
+
+.square-15 {
+  padding: 29px;
+  border-color: #bebebe;
+  -webkit-animation: rotate 2s ease-in-out 0.5s alternate infinite;
+          animation: rotate 2s ease-in-out 0.5s alternate infinite;
+}
+
+.square-16 {
+  padding: 24px;
+  border-color: #c6c6c6;
+  -webkit-animation: rotate 2s ease-in-out 0.5333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.5333333333s alternate infinite;
+}
+
+.square-17 {
+  padding: 19px;
+  border-color: #cecece;
+  -webkit-animation: rotate 2s ease-in-out 0.5666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.5666666667s alternate infinite;
+}
+
+.square-18 {
+  padding: 14px;
+  border-color: #d6d6d6;
+  -webkit-animation: rotate 2s ease-in-out 0.6s alternate infinite;
+          animation: rotate 2s ease-in-out 0.6s alternate infinite;
+}
+
+.square-19 {
+  padding: 9px;
+  border-color: #dedede;
+  -webkit-animation: rotate 2s ease-in-out 0.6333333333s alternate infinite;
+          animation: rotate 2s ease-in-out 0.6333333333s alternate infinite;
+}
+
+.square-20 {
+  padding: 4px;
+  border-color: #e6e6e6;
+  -webkit-animation: rotate 2s ease-in-out 0.6666666667s alternate infinite;
+          animation: rotate 2s ease-in-out 0.6666666667s alternate infinite;
+}
+
+@-webkit-keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
