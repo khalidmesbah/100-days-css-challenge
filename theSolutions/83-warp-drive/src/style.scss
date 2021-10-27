@@ -1,0 +1,59 @@
+$numberOfRings: 30; // sync with HTML
+$numberOfStripes: 24; // sync with HTML
+$animationDuration: 4s;
+.frame {
+	position: absolute;
+	inset: calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	background: #1e3242;
+	display:grid;place-items:center;
+}
+.ring {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	.stripe {
+		position: absolute;
+		width: 2px;
+		height: 20px;
+		top: 90px;
+		left: 99px;
+		background: #c3dcec;
+	}
+}
+@for $i from 1 through $numberOfRings {
+	$nullbase1: $i - 1;
+	$timeOffset: $nullbase1 * ($animationDuration / $numberOfRings) * -1;
+	.ring-#{$i} {
+		animation: ring
+			$animationDuration
+			cubic-bezier(0.98, 0.02, 0.97, 0.12)
+			$timeOffset
+			infinite;
+		@for $j from 1 through $numberOfStripes {
+			$nullBase2: $j - 1;
+			$degree: ((360 / $numberOfStripes) * $nullBase2) - (random() * 10);
+			$offset: 100 - (random() * 40);
+			.stripe-#{$j} {
+				transform: rotate(($degree) + deg)
+					translate3d(0, ($offset) + px, 0)
+					scaleY(($offset / 100));
+			}
+		}
+	}
+}
+@keyframes ring {
+	0% {
+		transform: scale(0);
+		opacity: 0.1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(4);
+		opacity: 1;
+	}
+}

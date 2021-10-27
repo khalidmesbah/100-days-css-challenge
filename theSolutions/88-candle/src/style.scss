@@ -1,0 +1,65 @@
+.frame {
+	position: absolute;
+	inset:calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+	background: #2c3e50;
+	display:grid;place-items:center;
+	*{
+		position:absolute;
+		border-radius:var(--o,3px)
+	}
+}
+.candle {
+	margin-bottom: -20px;
+	position: relative;
+	padding:50px 30px;
+	background: #fff;
+	box-shadow: inset -10px 0 0 0 #E0E5FF;
+	.shadow {
+		padding:4px 60px;
+		background: #1B233E;
+		inset:100px 0 -8px -30px;
+	}
+	.wick {
+		padding:7.5px 2px;
+		inset:-15px auto auto 28px;
+		background: #AD88A9;
+		--o: 2px 2px 0 0;
+	}
+	.flame {
+		padding:13px 8px;
+		inset:-32px auto auto 22px;
+		background: #FFAD00;
+		--o: 8px 8px 8px 8px / 20px 20px 8px 8px;
+		animation: 
+			wind 15s ease-in-out infinite, 
+			size 20s ease-in-out infinite, 
+			flickr 5s ease-in-out infinite;
+		transform-origin: 50% 100%;
+	}
+}
+@keyframes wind {
+	0%, 22%, 49%, 62%, 81%, 100% {
+		border-radius: 2px 14px 8px 8px / 20px 20px 8px 8px;
+	}
+	14%, 32%, 56%, 70%, 89% {
+		border-radius: 14px 2px 8px 8px / 20px 20px 8px 8px;
+	}
+}
+@keyframes size {
+	0%, 22%, 49%, 62%, 81%, 100% {
+		transform: scale(1,1);
+	}
+	14%, 32%, 56%, 70%, 89% {
+		transform: scale(0.9, 1.2);
+	}
+}
+@keyframes flickr {
+	0%, 22%, 49%, 62%, 81%, 100% {
+		box-shadow: 0 0 20px 0 rgba(255,202,0,0.7);
+	}
+	14%, 32%, 56%, 70%, 89% {
+		box-shadow: 0 0 20px 0 rgba(255,202,0,.8);
+	}
+}

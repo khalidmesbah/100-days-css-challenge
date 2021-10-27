@@ -91,13 +91,13 @@ My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://1
 | :white_check_mark: | [100 Days CSS Challenge #079 ==> Lines Animation](https://100dayscss.com/days/79/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/eYEWeZG)|
 | :white_check_mark: | [100 Days CSS Challenge #080 ==> Flexbox Accordeon](https://100dayscss.com/days/80/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/zYzmNJx)|
 | :white_check_mark: | [100 Days CSS Challenge #081 ==> Jumping Ball](https://100dayscss.com/days/81/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/abyWVYQ)|
-| :white_check_markn: | [100 Days CSS Challenge #082 ==> Responding Button](https://100dayscss.com/days/82/)|[Solution/preview]()|
-| :white_check_markn: | [100 Days CSS Challenge #083 ==> Warp Drive](https://100dayscss.com/days/83/)|[Solution/preview]()|
+| :white_check_mark: | [100 Days CSS Challenge #082 ==> Responding Button](https://100dayscss.com/days/82/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/bGrWmRJ)|
+| :white_check_mark: | [100 Days CSS Challenge #083 ==> Warp Drive](https://100dayscss.com/days/83/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/KKvmJzj)|
 | :white_check_mark: | [100 Days CSS Challenge #084 ==> Book Cover](https://100dayscss.com/days/84/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/zYzmoLm)|
-| :white_check_markn: | [100 Days CSS Challenge #085 ==> It's Something](https://100dayscss.com/days/85/)|[Solution/preview]()|
-| :white_check_markn: | [100 Days CSS Challenge #086 ==> Newton's Cradle](https://100dayscss.com/days/86/)|[Solution/preview]()|
-| :white_check_markn: | [100 Days CSS Challenge #087 ==> Ruby](https://100dayscss.com/days/87/)|[Solution/preview]()|
-| :white_check_markn: | [100 Days CSS Challenge #088 ==> Candle](https://100dayscss.com/days/88/)|[Solution/preview]()|
+| :white_check_mark: | [100 Days CSS Challenge #085 ==> It's Something](https://100dayscss.com/days/85/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/MWvmZxM)|
+| :white_check_mark: | [100 Days CSS Challenge #086 ==> Newton's Cradle](https://100dayscss.com/days/86/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/PoKmXXQ)|
+| :white_check_mark: | [100 Days CSS Challenge #087 ==> Ruby](https://100dayscss.com/days/87/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/eYEWQGy)|
+| :white_check_mark: | [100 Days CSS Challenge #088 ==> Candle](https://100dayscss.com/days/88/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/gOxWQaV)|
 | :white_check_mark: | [100 Days CSS Challenge #089 ==> Animated Pattern](https://100dayscss.com/days/89/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/gORddrB)|
 | :white_check_mark: | [100 Days CSS Challenge #090 ==> Mouse Trap](https://100dayscss.com/days/90/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/gORdZyV)|
 | :white_check_mark: | [100 Days CSS Challenge #091 ==> Cube Loader](https://100dayscss.com/days/91/)|[Solution/preview](https://codepen.io/KhalidMesbah/pen/OJgBMWr)|
