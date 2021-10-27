@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400);
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.13);
+  overflow: hidden;
+  background: #f39c12;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.carousel {
+  font-size: 30px;
+  line-height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 176px;
+  padding-left: 15px;
+}
+.carousel > * {
+  display: inline-block;
+  text-shadow: 2px 2px 2px #e67e22;
+}
+.carousel .outer {
+  overflow: hidden;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px #e67e22;
+  height: 45px;
+}
+.carousel .inner {
+  -webkit-animation: up 8s ease-in-out infinite;
+          animation: up 8s ease-in-out infinite;
+  text-align: left;
+}
+
+@-webkit-keyframes up {
+  0%, 20% {
+    transform: translateY(0);
+  }
+  25%, 45% {
+    transform: translateY(-45px);
+  }
+  50%, 70% {
+    transform: translateY(-90px);
+  }
+  75%, 95% {
+    transform: translateY(-135px);
+  }
+  100% {
+    transform: translateY(-180px);
+  }
+}
+
+@keyframes up {
+  0%, 20% {
+    transform: translateY(0);
+  }
+  25%, 45% {
+    transform: translateY(-45px);
+  }
+  50%, 70% {
+    transform: translateY(-90px);
+  }
+  75%, 95% {
+    transform: translateY(-135px);
+  }
+  100% {
+    transform: translateY(-180px);
+  }
+}

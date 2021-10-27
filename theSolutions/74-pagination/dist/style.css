@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+.center-flex, .page, .frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #1abc9c;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  gap: 14px;
+}
+
+.page {
+  position: relative;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  padding-bottom: 2px;
+  border-radius: 50px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+.page:hover {
+  background: #16a085;
+  transition: all 0.3s ease-in-out;
+}
+.page::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  border-radius: 50%;
+  background: #fff;
+  transform: scale(0);
+  transition: all 0.5s ease-in-out;
+}
+
+input {
+  display: none;
+}
+
+#page-1:checked ~ .page-1 {
+  color: #1abc9c;
+  background: none;
+  transition: all 0.5s ease-in-out;
+}
+#page-1:checked ~ .page-1::before {
+  transform: scale(1);
+}
+
+#page-2:checked ~ .page-2 {
+  color: #1abc9c;
+  background: none;
+  transition: all 0.5s ease-in-out;
+}
+#page-2:checked ~ .page-2::before {
+  transform: scale(1);
+}
+
+#page-3:checked ~ .page-3 {
+  color: #1abc9c;
+  background: none;
+  transition: all 0.5s ease-in-out;
+}
+#page-3:checked ~ .page-3::before {
+  transform: scale(1);
+}
+
+#page-4:checked ~ .page-4 {
+  color: #1abc9c;
+  background: none;
+  transition: all 0.5s ease-in-out;
+}
+#page-4:checked ~ .page-4::before {
+  transform: scale(1);
+}

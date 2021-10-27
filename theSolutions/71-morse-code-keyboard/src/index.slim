@@ -1,0 +1,8 @@
+.frame
+	.keyboard
+		-for i in (1..26)
+			span class="key" &##{64+i};
+		.numbers
+			-for i in (1..10)
+				span class="key" &##{47 + i};
+	.flash

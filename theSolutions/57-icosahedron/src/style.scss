@@ -1,0 +1,127 @@
+$sideLength: 80;
+$triangleHeight: $sideLength * 1.732;
+$translate: 129.2px;
+$degreeZ: 8deg;
+$degreeY: 35.264deg;
+$degreeX1: 135deg;
+$degreeX2: 45deg;
+.frame {
+	position: absolute;
+	inset: calc(50% - 200px);
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	background: #2c3e50;
+	display: grid;
+	place-content: center;
+	perspective: 1000px;
+}
+.ikosaeder {
+	transform-style: preserve-3d;
+	transform: rotateX(-40deg) rotateY(-40deg);
+	transition: all 3s ease-in-out;
+	height: 280px;
+	width: 160px;
+	cursor: pointer;
+	&:hover {
+		transform: rotateX(-400deg) rotateY(-400deg);
+		.side {
+			opacity: 0.5;
+		}
+	}
+	.side {
+		position: absolute;
+		border-style: solid;
+		border-width: 0 $sideLength + px $triangleHeight + px $sideLength + px;
+		border-color: transparent transparent #eee transparent;
+		transform-origin: 50% 100%;
+		transition: all 3s ease-in-out;
+	}
+	.side-1 {
+		transform: translateZ($translate) rotateZ(90deg) rotateX(159.095deg);
+	}
+	.side-2 {
+		transform: translateZ($translate) rotateZ(-90deg) rotateX(159.095deg);
+	}
+	.side-3 {
+		transform: translateZ(-$translate) rotateZ(90deg) rotateX(-159.095deg);
+	}
+	.side-4 {
+		transform: translateZ(-$translate) rotateZ(-90deg) rotateX(-159.095deg);
+	}
+	.side-5 {
+		transform: rotateY(-90deg) translateZ($translate) rotateX(20.905deg);
+	}
+	.side-6 {
+		transform: rotateY(-90deg) translateZ($translate) rotateX(159.095deg);
+	}
+	.side-7 {
+		transform: rotateY(-90deg) translateZ(-$translate) rotateX(-20.905deg);
+	}
+	.side-8 {
+		transform: rotateY(-90deg) translateZ(-$translate) rotateX(-159.095deg);
+	}
+	.side-9 {
+		transform: translateY($translate) rotateX(69.095deg);
+	}
+	.side-10 {
+		transform: translateY($translate) rotateX(-69.095deg);
+	}
+	.side-11 {
+		transform: translateY(-$translate) rotateX(110.905deg);
+	}
+	.side-12 {
+		transform: translateY(-$translate) rotateX(-110.905deg);
+	}
+	.side-13 {
+		border-width: $triangleHeight + px $sideLength + px 0 $sideLength + px;
+		transform: translateY(-$translate) translateX($sideLength + px)
+			rotateX(-$degreeX1) rotateY(-$degreeY) rotateZ(-$degreeZ);
+	}
+	.side-14 {
+		border-width: $triangleHeight + px $sideLength + px 0 $sideLength + px;
+		transform: translateY(-$translate) translateX($sideLength + px)
+			rotateX($degreeX1) rotateY($degreeY) rotateZ(-$degreeZ);
+	}
+	.side-15 {
+		border-width: $triangleHeight + px $sideLength + px 0 $sideLength + px;
+		transform: translateY(-$translate) translateX(-$sideLength + px)
+			rotateX(-$degreeX1) rotateY($degreeY) rotateZ($degreeZ);
+	}
+	.side-16 {
+		border-width: $triangleHeight + px $sideLength + px 0 $sideLength + px;
+		transform: translateY(-$translate) translateX(-$sideLength + px)
+			rotateX($degreeX1) rotateY(-$degreeY) rotateZ($degreeZ);
+	}
+	.side-17 {
+		border-width: $triangleHeight + px $sideLength + px 0 $sideLength + px;
+		transform: translateY($translate) translateX($sideLength + px)
+			rotateX($degreeX2) rotateY(-$degreeY) rotateZ(-$degreeZ);
+	}
+	.side-18 {
+		border-width: $triangleHeight + px $sideLength + px 0 $sideLength + px;
+		transform: translateY($translate) translateX($sideLength + px)
+			rotateX(-$degreeX2) rotateY($degreeY) rotateZ(-$degreeZ);
+	}
+	.side-19 {
+		border-width: $triangleHeight + px $sideLength + px 0 $sideLength + px;
+		transform: translateY($translate) translateX(-$sideLength + px)
+			rotateX($degreeX2) rotateY($degreeY) rotateZ($degreeZ);
+	}
+	.side-20 {
+		border-width: $triangleHeight + px $sideLength + px 0 $sideLength + px;
+		transform: translateY($translate) translateX(-$sideLength + px)
+			rotateX(-$degreeX2) rotateY(-$degreeY) rotateZ($degreeZ);
+	}
+	@for $i from 1 through 6 {
+		$id: $i * 2;
+		.side-#{$id} {
+			border-color: transparent transparent #e1e1e1;
+		}
+	}
+	@for $i from 13 through 20 {
+		.side-#{$i} {
+			border-color: #fff transparent transparent;
+		}
+	}
+}

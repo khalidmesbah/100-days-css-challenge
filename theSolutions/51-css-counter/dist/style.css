@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+.frame {
+  position: absolute;
+  inset: calc(50% - 200px);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #313c46;
+  overflow: hidden;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  place-content: center;
+}
+
+.counter {
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  padding-inline: 6px;
+  overflow: hidden;
+}
+.counter .number {
+  float: left;
+  width: 22px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+  color: #478bb8;
+}
+.counter .number.units {
+  -webkit-animation: count 10s steps(1) infinite;
+          animation: count 10s steps(1) infinite;
+}
+.counter .number.tens {
+  -webkit-animation: count 100s steps(1) infinite;
+          animation: count 100s steps(1) infinite;
+}
+.counter .number.hundreds {
+  -webkit-animation: count 1000s steps(1) infinite;
+          animation: count 1000s steps(1) infinite;
+}
+.counter .number.thousands {
+  -webkit-animation: count 10000s steps(1) infinite;
+          animation: count 10000s steps(1) infinite;
+}
+
+.controls {
+  cursor: pointer;
+  margin: 20px auto -80px 42px;
+}
+.controls * {
+  position: absolute;
+}
+.controls .pause {
+  padding: 10px 8px;
+  transition: all 0.3s ease-in-out;
+}
+.controls .pause::after {
+  position: absolute;
+  content: "";
+  padding: 10px 2.5px;
+  inset: 0 auto auto 0;
+  background: #fff;
+  box-shadow: 11px 0 #fff;
+}
+.controls .play {
+  border-style: solid;
+  border-width: 10px 0 10px 16px;
+  border-color: transparent transparent transparent #fff;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0);
+  opacity: 0;
+}
+
+#btn {
+  display: none;
+}
+#btn:checked ~ .controls .pause {
+  transform: scale(0);
+  opacity: 0;
+}
+#btn:checked ~ .controls .play {
+  transform: scale(1);
+  opacity: 1;
+}
+#btn:checked ~ .counter .units,
+#btn:checked ~ .counter .tens,
+#btn:checked ~ .counter .hundreds {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes count {
+  00% {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-40px);
+  }
+  20% {
+    transform: translateY(-80px);
+  }
+  30% {
+    transform: translateY(-120px);
+  }
+  40% {
+    transform: translateY(-160px);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+  60% {
+    transform: translateY(-240px);
+  }
+  70% {
+    transform: translateY(-280px);
+  }
+  80% {
+    transform: translateY(-320px);
+  }
+  90% {
+    transform: translateY(-360px);
+  }
+}
+
+@keyframes count {
+  00% {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-40px);
+  }
+  20% {
+    transform: translateY(-80px);
+  }
+  30% {
+    transform: translateY(-120px);
+  }
+  40% {
+    transform: translateY(-160px);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+  60% {
+    transform: translateY(-240px);
+  }
+  70% {
+    transform: translateY(-280px);
+  }
+  80% {
+    transform: translateY(-320px);
+  }
+  90% {
+    transform: translateY(-360px);
+  }
+}
