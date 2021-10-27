@@ -1,9 +1,10 @@
 # 100 DAYS CSS CHALLENGE
-
 ![100 Days CSS Challenge Logo](logo.png)
+***
+### :2nd_place_medal:	The silver middle owner :trophy:	 
+My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://100dayscss.com/).
 
-My Solutions for 100 Days CSS Challenge. Inspired by [Matthias Martin](https://100dayscss.com/). 
-
+You can check out my progress from here => [khalidMesbah](https://100dayscss.com/progress/KhalidMesbah/).
 ***
 
 
